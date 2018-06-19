@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link href="css/mui.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+    <script src="js/mui.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <style>
+        .wrapper{
+            width: auto;
+            height: auto;
+            padding: 44px 0 0 0;
+        }
+        .love{
+            width: auto;
+            height: auto;
+            font-size: 0;
+        }
+        .tab{
+            width: auto;
+            height: 40px;
+            background: url(images/borgrayb.png) repeat-x bottom #fff;
+            background-size: 1px 1px;
+        }
+        .tab ul li{
+            width: 33.333%;
+            height: 40px;
+            float: left;
+        }
+        .tab ul li a.on{
+            color: #333333;
+            background: #eeeeee;
+        }
+        .tab ul li a{
+            display: block;
+            width: auto;
+            height: 40px;
+            line-height: 40px;
+            font-size: 14px;
+            color: #666;
+            text-align: center;
+            position: relative;
+        }
+        .tab ul li a span.icon-filter{
+            display: inline-block;
+            width: auto;
+            height: 40px;
+            line-height: 40px;
+            background: url(images/tabfilter.png) no-repeat right center;
+            background-size: 15px 15px;
+            padding-right: 25px;
+        }
+        .makedown ul li{
+            width: auto;
+            height: auto;
+            padding-bottom: 5px;
+        }
+        .makedown ul li .box {
+            width: auto;
+            height: auto;
+            background: url(images/borgrayb.png) repeat-x bottom #fff;
+            background-size: 1px 1px;
+        }
+        .makedown ul li .box .img {
+            width: auto;
+            height: auto;
+            font-size: 0;
+        }
+        .makedown ul li .box .img a {
+            display: block;
+            width: auto;
+            height: auto;
+        }
+        .makedown ul li .box .img a img {
+            width: 100%;
+        }
+        .makedown ul li .box .con {
+            width: auto;
+            height: auto;
+            padding: 15px 100px 15px 15px;
+            position: relative;
+        }
+        .makedown ul li .box .con .tit {
+            width: auto;
+            height: auto;
+            background: url(images/inmore.png) no-repeat left center;
+            background-size: 3px 5px;
+            font-size: 12px;
+            padding-left: 10px;
+        }
+        .makedown ul li .box .con .txt {
+            width: auto;
+            height: auto;
+            padding: 5px 0 0 10px;
+            line-height: 16px;
+            font-size: 10px;
+            color: #666;
+        }
+        .makedown ul li .box .con .note {
+            width: auto;
+            min-width: 80px;
+            height: 50px;
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            margin-top: -25px;
+        }
+        .makedown ul li .box .con .tit a {
+            color: #333;
+        }
+        .makedown ul li .box .con .txt span {
+            color: #999;
+            padding-right: 5px;
+        }
+        .makedown ul li .box .con .note .num {
+            width: auto;
+            height: 25px;
+            line-height: 25px;
+            text-align: center;
+            font-size: 12px;
+            color: #666;
+        }
+        .makedown ul li .box .con .note .btn {
+            width: auto;
+            height: auto;
+        }
+        .makedown ul li .box .con .note .num span {
+            color: #ca0813;
+            padding-left: 5px;
+        }
+        .makedown ul li .box .con .note .btn a {
+            display: block;
+            width: auto;
+            height: 25px;
+            line-height: 25px;
+            text-align: center;
+            font-size: 12px;
+            color: #fff;
+            border-radius: 3px;
+            background: #ea9ca1;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="love">
+            <img src="images/nban-makedown.jpg">
+        </div>
+        <div class="tab">
+            <ul>
+                <li>
+                    <a href="javascript:void(0)" class="on">最新课程</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">最热课程</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" class="opfilter">
+                        <span class="icon-filter">筛选</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="makedown">
+            <ul>
+                <li>
+                    <div class="box">
+                        <div class="img">
+                            <a href="makedowncon.html">
+                                <img src="images/makedown1.jpg">
+                            </a>
+                        </div>
+                        <div class="con">
+                            <div class="tit">
+                                <a href="makedowncon.html">九局讲直播，快来参加</a>
+                            </div>
+                            <div class="txt">
+                                <span>开课时间</span>9月22日 晚上9点<br>
+                                <span>课程价格</span>500元/3天
+                            </div>
+                            <div class="note">
+                                <div class="num">已报名<span>120人</span></div>
+                                <div class="btn">
+                                    <a href="javascript:void(0)" class="opmakedown">一键预约</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="box">
+                        <div class="img">
+                            <a href="makedowncon.html"><img src="images/makedown2.jpg"></a>
+                        </div>
+                        <div class="con">
+                            <div class="tit">
+                                <a href="makedowncon.html">九局讲直播，快来参加</a>
+                            </div>
+                            <div class="txt">
+                                <span>开课时间</span>9月22日 晚上9点<br>
+                                <span>课程价格</span>500元/3天</div>
+                            <div class="note">
+                                <div class="num">已报名<span>120人</span></div>
+                                <div class="btn">
+                                    <a href="javascript:void(0)" class="opmakedown">一键预约</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="box">
+                        <div class="img">
+                            <a href="makedowncon.html"><img src="images/makedown3.jpg"></a>
+                        </div>
+                        <div class="con">
+                            <div class="tit">
+                                <a href="makedowncon.html">九局讲直播，快来参加</a>
+                            </div>
+                            <div class="txt">
+                                <span>开课时间</span>9月22日 晚上9点<br>
+                                <span>课程价格</span>500元/3天
+                            </div>
+                            <div class="note">
+                                <div class="num">
+                                    <span class="ok">报名已满</span>
+                                </div>
+                                <div class="btn">
+                                    <a href="javascript:void(0)" class="opmakedown">一键预约</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

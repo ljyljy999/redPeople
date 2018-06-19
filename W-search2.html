@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link href="css/mui.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+    <script src="js/mui.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <style>
+        header{
+            width: 100%;
+            height: 44px;
+            background: #fff;
+            position: fixed;
+            left: 0;
+            top: 0;
+            z-index: 999;
+        }
+        .search{
+            width: auto;
+            height: 44px;
+            padding: 7px 65px 7px 15px;
+            position: relative;
+            background: url(images/borgrayb.png) repeat-x bottom;
+            background-size: 1px 1px;
+        }
+        .search .icon{
+            width: 36px;
+            height: 30px;
+            background: url(images/icon-search.png) no-repeat center;
+            background-size: 15px 15px;
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            margin-top: -15px;
+        }
+        .search .back{
+            color: #000;
+            display: block;
+            width: auto;
+            height: 44px;
+            line-height: 0;
+            padding: 22px 0;
+            font-size: 14px;
+            color: #999999;
+            position: absolute;
+            right: 15px;
+            top: 0;
+        }
+        .search a.emptied{
+            display: block;
+            width: 14px;
+            height: 14px;
+            position: absolute;
+            right: 75px;
+            top: 50%;
+            margin-top: -7px;
+            background: url(images/search-emptied.png) no-repeat;
+            background-size: 100% 100%;
+        }
+        .search input.inp{
+            background: #e7ebee;
+            border-radius: 5px;
+            color: #000;
+            width: 100%;
+            height: 30px;
+            line-height: 14px;
+            background: #eeeeee;
+            border: 0;
+            border-radius: 3px;
+            font-size: 12px;
+            color: #333;
+            padding: 7px 10px 7px 36px;
+        }
+        .wrapper {
+            width: auto;
+            height: auto;
+            padding: 44px 0 50px 0;
+        }
+        .wrapper .people{
+            width: auto;
+            height: auto;
+            background: #fff;
+        }
+        .people .list{
+            width: auto;
+            height: auto;
+            padding-left: 15px;
+            background: url(images/borgrayb.png) repeat-x bottom;
+            background-size: 1px 1px;
+        }
+        .people .list ul li{
+            width: auto;
+            height: auto;
+            background: url(images/borgrayb.png) repeat-x bottom;
+            background-size: 1px 1px;
+            padding: 10px 0;
+        }
+        .people .list ul li .item{
+            width: auto;
+            height: auto;
+            position: relative;
+        }
+        .people .list ul li .item .img{
+            width: 48px;
+            height: 48px;
+            font-size: 0;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        .people .list ul li .item .img img{
+            width: 48px;
+            height: 48px;
+            border-radius: 5px;
+        }
+        .people .list ul li .item .txt{
+            width: auto;
+            height: 48px;
+            line-height: 48px;
+            padding-left: 58px;
+            font-size: 12px;
+            color: #000;
+        }
+        .people .list ul li .item .txt span{
+            color: #ff6666;
+        }
+        .people .more{
+            width: auto;
+            height: auto;
+            padding: 5px 15px;
+        }
+        .people .more a{
+            display: inline-block;
+            width: auto;
+            height: auto;
+            font-size: 12px;
+            color: #ff6666;
+            background: url(images/icon-search2.png) no-repeat left center;
+            background-size: auto 100%;
+            padding-left: 20px;
+        }
+        .list{
+            width: auto;
+            height: auto;
+            background: #fff;
+            margin-top: 10px;
+            padding-left: 15px;
+        }
+        .list ul li{
+            width: auto;
+            height: auto;
+            background: url(images/borgrayb.png) repeat-x bottom;
+            background-size: 1px 1px;
+            padding: 15px 15px 15px 0;
+        }
+        .list ul li .item{
+            width: auto;
+            height: auto;
+            position: relative;
+        }
+        .list ul li .item .img{
+            width: 85px;
+            height: 62px;
+            font-size: 0;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        .list ul li .item .img img{
+            width: 85px;
+            height: 62px;
+        }
+        .list ul li .item .con{
+            width: auto;
+            height: auto;
+            min-height: 62px;
+            padding-left: 110px;
+        }
+        .list ul li .item .con .note{
+            width: auto;
+            height: auto;
+            line-height: 12px;
+            overflow: hidden;
+            margin-top: 3px;
+        }
+        .list ul li .item .con .note span.see{
+            display: block;
+            width: auto;
+            float: left;
+            font-size: 8px;
+            color: #999999;
+            position: relative;
+            padding-left: 15px;
+        }
+        .list ul li .item .con .note span.see i{
+            display: block;
+            width: 10px;
+            height: 10px;
+            position: absolute;
+            left: 0;
+            top: 1px;
+            background-image: url(images/inopera.png);
+            background-size: auto 20px;
+            background-repeat: no-repeat;
+            background-position: left top;
+        }
+        .list ul li .item .con .note span.date{
+            float: right;
+            font-size: 8px;
+            color: #666666;
+        }
+        .list ul li .item .con .tit{
+            width: auto;
+            height: auto;
+            font-size: 12px;
+            color: #333333;
+        }
+        .list ul li .item .con .txt{
+            width: auto;
+            height: auto;
+            font-size: 10px;
+            color: #999999;
+            line-height: 14px;
+            margin-top: 3px;
+        }
+        .list ul li .item span.play{
+            display: block;
+            width: 26px;
+            height: 26px;
+            position: absolute;
+            left: 50%;
+            margin-left: -13px;
+            top: 50%;
+            margin-top: -13px;
+            z-index: 2;
+            background: url(images/video-play.png) no-repeat;
+            background-size: 100% 100%;
+        }
+        .list ul li .item .img img{
+            width: 85px;
+            height: 62px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="search">
+            <form method="get">
+                <span class="icon"></span>
+                <a href="javascript:void(0);" class="back">取消</a>
+                <a href="javascript:void(0);" class="emptied"></a>
+                <input type="text" value="黑泽" placeholder="请输入您想搜索的关键字" class="inp">
+            </form>
+        </div>
+    </header>
+    <div class="wrapper">
+        <div class="people">
+            <div class="list">
+                <ul>
+                    <li>
+                        <div class="item">
+                            <div class="img"><img src="images/finecoursecon-newlist1.jpg"></div>
+                            <div class="txt"><span>黑泽</span></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item">
+                            <div class="img"><img src="images/finecoursecon-newlist2.jpg"></div>
+                            <div class="txt"><span>黑</span>桃A—纹身</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="more">
+                <a href="#">查看更多</a>
+            </div>
+        </div>
+        <div class="list">
+            <ul>
+                <li>
+                    <a href="#" class="item">
+                        <div class="img">
+                            <span class="play"></span>
+                            <img src="images/vipcoursecon-new.jpg">
+                        </div>
+                        <div class="con">
+                            <div class="tit">4亿人口下的“新市民经济”</div>
+                            <div class="txt">如果你无法简洁的表达你的想法，那只说明你还不够了解它。</div>
+                            <div class="note">
+                                <span class="see"><i></i>6666</span>
+                                <span class="date">2017年01月25日</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="item">
+                        <div class="img">
+                            <img src="images/vipcoursecon-new.jpg">
+                        </div>
+                        <div class="con">
+                            <div class="tit">4亿人口下的“新市民经济”</div>
+                            <div class="txt">如果你无法简洁的表达你的想法，那只说明你还不够了解它。</div>
+                            <div class="note">
+                                <span class="see">6666</span>
+                                <span class="date">2017年01月25日</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="item">
+                        <div class="img">
+                            <img src="images/vipcoursecon-new.jpg">
+                        </div>
+                        <div class="con">
+                            <div class="tit">4亿人口下的“新市民经济”</div>
+                            <div class="txt">如果你无法简洁的表达你的想法，那只说明你还不够了解它。</div>
+                            <div class="note">
+                                <span class="see">6666</span>
+                                <span class="date">2017年01月25日</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="item">
+                        <div class="img">
+                            <img src="images/vipcoursecon-new.jpg">
+                        </div>
+                        <div class="con">
+                            <div class="tit">4亿人口下的“新市民经济”</div>
+                            <div class="txt">如果你无法简洁的表达你的想法，那只说明你还不够了解它。</div>
+                            <div class="note">
+                                <span class="see">6666</span>
+                                <span class="date">2017年01月25日</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
