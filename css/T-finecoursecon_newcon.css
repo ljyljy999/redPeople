@@ -1,0 +1,209 @@
+content .txt{
+	font-size:13px;
+}
+.fiction .fiction-txt{
+	display: block;
+	padding: 15px;
+    font-size: 18px;
+    color: #333333;
+    font-weight: bold;
+}
+.fiction .finewcon-music{
+	background: #f5f5f5;
+    border: 1px dashed #ddd;
+    border-radius: 5px;
+    margin: 0 15px;
+    padding: 15px;
+}
+.fiction .finewcon-music .box{
+	position: relative;
+}
+.fiction .finewcon-music .tit{
+	font-size: 14px;
+    color: #333333;
+}
+.fiction .finewcon-music .opmusic{
+	display: block;
+    width: 133px;
+    height: 25px;
+    background: url(../images/musicbg.png) no-repeat;
+    background-size: 133px 25px;
+    position: relative;
+}
+.fiction .finewcon-music .opmusic .state{
+	    display: block;
+    width: auto;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    background-image: url(../images/music.png);
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    background-size: 12px 12px;
+    padding-left: 10px;
+}
+.fiction .finewcon-music .opmusic .num{
+	line-height: 25px;
+    font-size: 12px;
+    color: #999;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    padding-left: 10px;
+}
+.fiction .finewcon-music .note{
+	line-height: 25px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 12px;
+    color: #999;
+}
+
+.bean_vermicelli{
+	background: url(../images/borgrayb.png) repeat-x bottom #fff;
+    background-size: 1px 1px;
+    position: relative;
+    z-index: 2;
+    padding: 0 68px 0 96px;
+}
+.bean_vermicelli .portrait{
+	width: 66px;
+    height: 66px;
+    background: #fff;
+    position: absolute;
+    top: -10px;
+    left: 15px;
+    border-radius: 50%;
+    font-size: 0;
+    padding: 2px;	
+}
+.bean_vermicelli .portrait a{
+	width: 62px;
+	height: 62px;
+}
+.bean_vermicelli .portrait a img{
+	width: 62px;
+	height: 62px;
+	border-radius: 50%;
+}
+.bean_vermicelli .gift{
+	width: 68px;
+    height: 40px;
+    position: absolute;
+    right: 0px;
+    top: 14px;
+    background: url(../images/borgrayl.png) repeat-y left;
+    background-size: 1px 1px;
+}
+.bean_vermicelli .gift span.icon{
+	width: 24px;
+	height: 24px;
+	font-size:0;
+}
+.bean_vermicelli .gift span.icon img{
+	width: 100%;
+}
+.bean_vermicelli .gift span{
+	display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.bean_vermicelli .gift>span.txt{
+    font-size: 10px;
+    color: #999999;
+    padding-top: 5px;
+}
+.bean_vermicelli .box .txt{
+	font-size:10px;
+}
+.bean_vermicelli .box .con{
+	padding-top: 8px;
+	overflow: hidden;
+}
+.bean_vermicelli .box .con .name{
+	height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #333333;
+    float: left;
+    padding-right: 20px;
+}
+.bean_vermicelli .box .con .name a{
+	color:#333;
+}
+.bean_vermicelli .box .con .name a span {
+    display: block;
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 20px;
+    background-size: 14px 14px;
+}
+.bean_vermicelli .box .con .name a span.vip{
+	background-image: url(../images/vip-blue.png);
+}
+.bean_vermicelli .box .con .fans{
+	width: auto;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #999999;
+    float: left;
+}
+
+
+
+
+
+
+.quiz_attention{
+	height: 44px;
+    background: #fff;
+    padding: 9px 0;
+}
+.quiz_attention>div{
+	width: 50%;
+	height: 26px;
+    float: left;
+    background: url(../images/borgrayr.png) repeat-y right;
+    background-size: 1px 1px;
+    padding: 0 35px;
+}
+.quiz_attention>div:last-child{
+	background: none;
+}
+.quiz_attention>div a{
+	display: block;
+    width: auto;
+    height: 26px;
+    text-align: center;
+    line-height: 24px;
+    padding: 1px;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 15px;
+    background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391);
+}
+.quiz_attention>div a div.active{
+	display: block;
+    width: auto;
+    height: 24px;
+    background: #fff;
+    border-radius: 15px;
+    text-align: center;
+}
+.quiz_attention>div a div.active span{
+	display: inline-block;
+    width: auto;
+    height: 24px;
+    line-height: 24px;
+    color: #fa655b;
+    background: url(../images/icon-addc.png) no-repeat left center;
+    background-size: 10px 10px;
+    padding-left: 16px;
+}
+

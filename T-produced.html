@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+        mui.init();
+    </script>
+    <link rel="stylesheet" href="css/T-header.css" />
+    <link rel="stylesheet" href="css/T-produced.css" />
+</head>
+<body>
+	<div>
+		<!--轮播-->
+		<banner>
+			<div id="slider" class="mui-slider mt40" >
+			  <div class="mui-slider-group mui-slider-loop">
+			    <!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+			    <div class="mui-slider-item mui-slider-item-duplicate">
+			      <a href="#">
+			        <img src="images/banner.jpg">
+			      </a>
+			    </div>
+			    <!-- 第一张 -->
+			    <div class="mui-slider-item">
+			      <a href="#">
+			        <img src="images/banner.jpg">
+			      </a>
+			    </div>
+			    <!-- 第二张 -->
+			    <div class="mui-slider-item">
+			      <a href="#">
+			        <img src="images/banner.jpg">
+			      </a>
+			    </div>
+			    <!-- 第三张 -->
+			    <div class="mui-slider-item">
+			      <a href="#">
+			        <img src="images/banner.jpg">
+			      </a>
+			    </div>
+			    <!-- 第四张 -->
+			    <div class="mui-slider-item">
+			      <a href="#">
+			        <img src="images/banner.jpg">
+			      </a>
+			    </div>
+			    <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+			    <div class="mui-slider-item mui-slider-item-duplicate">
+			      <a href="#">
+			        <img src="images/banner.jpg">
+			      </a>
+			    </div>
+			  </div>
+			</div>
+		</banner>
+		<div id="slider" class="mua-slider">
+    		<div class="mui-scroll-wrapper mui-slider-indicator mui-segmented-control mui-segmented-control-inverted" id="segmented">
+       		<div class="mui-scroll bf">
+                <a class="mui-control-item mui-active" href="#item1mobile">
+                    会员专区
+                </a>
+                <a class="mui-control-item" href="#item2mobile">
+                    VIP专区
+                </a>
+                <a class="mui-control-item" href="#item3mobile">
+                    超级VIP
+                </a>
+                <a class="mui-control-item" href="#item4mobile">
+                    <div class="icon-filter">筛选</div>
+                </a>
+		    </div>
+		</div>
+        <div class="mui-slider-group bf">
+            	<div id="item1mobile" class="mui-slider-item mui-control-content mui-active">
+            		<ul class="mui-table-view mui-grid-view mui-grid-9 bf">
+	            		<li class="mui-table-view-cell mui-media mui-col-xs-6 mui-col-sm-6">
+	            		    <a href="T-producedcon.html">
+							<div class="producedcon_img"><img src="images/prophoto1.jpg"></div>
+							<div class="con">
+								<div class="tit">标题吸引人</div>
+								<div class="txt">简短副标题表述一下</div>
+							</div>
+	            		    </a>
+	            		</li>
+	            		<li class="mui-table-view-cell mui-media mui-col-xs-6 mui-col-sm-6">
+	            		    <a href="T-producedcon.html">
+	            		        <div class="producedcon_img"><img src="images/prophoto1.jpg"></div>
+							<div class="con">
+								<div class="tit">标题吸引人</div>
+								<div class="txt">简短副标题表述一下</div>
+							</div>
+	            		    </a>
+	            		</li>
+	            		<li class="mui-table-view-cell mui-media mui-col-xs-6 mui-col-sm-6">
+	            		    <a href="T-producedcon.html">
+	            		        <div class="producedcon_img"><img src="images/prophoto1.jpg"></div>
+							<div class="con">
+								<div class="tit">标题吸引人</div>
+								<div class="txt">简短副标题表述一下</div>
+							</div>
+	            		    </a>
+	            		</li>
+	            		<li class="mui-table-view-cell mui-media mui-col-xs-6 mui-col-sm-6">
+	            		    <a href="T-producedcon.html">
+	            		       	<div class="producedcon_img"><img src="images/prophoto1.jpg"></div>
+							<div class="con">
+								<div class="tit">标题吸引人</div>
+								<div class="txt">简短副标题表述一下</div>
+							</div>
+	            		    </a>
+	            		</li>
+            		</ul>
+            	</div>
+            <div id="item2mobile" class="mui-slider-item mui-control-content">
+            		内容二
+            </div>
+           	<div id="item3mobile" class="mui-slider-item mui-control-content ">
+               	内容3
+            </div>
+            <div id="item4mobile" class="mui-slider-item mui-control-content ">
+              	内容4
+            </div>
+      	</div>
+	</div>
+	</div>
+	<script>
+		var gallery = mui('.mui-slider');
+		gallery.slider({
+  			interval:2000//自动轮播周期，若为0则不自动播放，默认为0；
+		});
+	</script>
+</body>
+</html>
+
