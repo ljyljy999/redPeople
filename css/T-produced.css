@@ -1,0 +1,47 @@
+.mui-segmented-control.mui-scroll-wrapper{
+	margin: 0;
+}
+.mui-segmented-control.mui-scroll-wrapper .mui-scroll{
+	width: 100%;
+	border-bottom: 1px solid #eee;
+}
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item{
+	width: 25%;
+}
+.mui-slider-group{
+	padding: 3px;
+}
+
+.producedcon_img img{
+	width: 100%;
+}
+.mui-grid-view.mui-grid-9,.mui-grid-view.mui-grid-9 .mui-table-view-cell{
+	border: 0;
+}
+.mui-grid-view.mui-grid-9 .mui-table-view-cell{
+	/*padding:0;*/
+	padding: 3px;
+}
+.mui-grid-view.mui-grid-9 .mui-table-view-cell>a:not(.mui-btn){
+	padding: 0;
+}
+.mua-slider ul li a .con{
+	width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    padding: 10px;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8));
+}
+.mua-slider ul li a .con .tit{
+	font-size: 14px;
+	color:#fff;
+}
+.mua-slider ul li a .con .txt{
+	color:#ccc;
+	font-size: 12px;
+	padding-top: 3px;
+}
+   

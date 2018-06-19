@@ -1,0 +1,105 @@
+ banner .mui-slider{
+ 	margin-top: 44px;
+ }
+ 
+/*分页导航*/
+.newest-hottest-screen .mui-grid-view.mui-grid-9 .mui-table-view-cell{
+	padding: 0;
+	border-right: 0px;
+}
+.newest-hottest-screen .mui-table-view.mui-grid-view{
+	width: auto;
+    height: 40px;
+    background: url(../images/borgrayb.png) repeat-x bottom #fff;
+    background-size: 1px 1px;
+}
+.newest-hottest-screen .mui-grid-view.mui-grid-9 .mui-table-view-cell>a:not(.mui-btn){
+	padding: 0;
+	height: 40px;
+	line-height: 40px;
+}
+.newest-hottest-screen .mui-table-view.mui-grid-view li a.active{
+	color:#333;
+	background: #eee;
+}
+
+
+/*主内容*/
+content>div:first-child{
+	margin-bottom: 50px;
+}
+.share{
+	width: auto;
+	padding: 5px 0;
+	height:34px;
+}
+.share ul{
+	padding: 0;
+	margin: 0;
+}
+.share ul li{
+	height: 24px;
+}
+.share ul li a{
+	display: block;
+	text-align: center;
+}
+.share ul li a div{
+	    display: inline-block;
+    width: auto;
+    height: 24px;
+    line-height: 24px;
+    font-size: 10px;
+    color: #999;
+    position: relative;
+    padding-left: 18px;
+    margin: 0;
+}
+.share ul li a div span.icon1{
+    width: 12px;
+    height: 12px;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -6px;
+    background-image: url(../images/inopera.png);
+    background-repeat: no-repeat;
+    background-size: 48px 24px;
+}
+.share ul li a div span.icon1_grade{
+	background-position: -12px 0;
+}
+.share ul li a div span.icon1_like{
+	background-position: -24px 0;
+}
+.share ul li a div span.icon1_grade{
+	background-position: -36px 0;
+}
+.overview-tit{
+	text-align: left;
+	line-height: 34px;
+}
+.overview-tit a{
+	border-left: 2px solid #f54744;
+	padding-left: 12px;
+}
+.overview-tit a span{
+	height: 14px;
+    line-height: 14px;
+    font-size: 14px;
+    color: #333;
+    padding-right: 20px;
+    background: url(../images/inmore.png) no-repeat right center;
+    background-size: 5px 10px;
+}
+.mui-table-view.mui-grid-view .mui-table-view-cell,.mui-table-view.mui-grid-view{
+	padding: 0;
+}
+.mui-table-view{
+	background-color:#efeff4;
+}
+.mui-table-view li{
+	background-color:#fff !important;
+}

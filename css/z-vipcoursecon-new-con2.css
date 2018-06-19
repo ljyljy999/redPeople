@@ -1,0 +1,246 @@
+.vip-class-title{
+	height:44px;
+	background-color: red;
+}
+.vip-class-photo img{
+	width:100%;
+	display:block;
+
+}
+/*小小七开始*/
+.vip-class-small{
+	width:auto;
+	height:auto;
+	background-color: #fff;
+	display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #ccc;
+}
+.vip-class-tu{
+	width:62px;
+	height:62px;
+	position:relative;
+}
+.vip-class-tu img{
+	width:62px;
+	height:62px;
+	border:1px solid red;
+	border-radius:50%;
+	position:absolute;
+	top:-10px;
+	left:10;
+}
+.vip-blue img {
+    width: 14px;
+    height: 14px;
+}
+.vip-small{
+	margin:10px;
+}
+.vip-small p{
+	font-size:10px;
+	color:#999;
+}
+.small-small{
+	font-size:14px;
+	color:#333;
+}
+.small-fen{
+	font-size:12px;
+	color:#999;
+}
+.vip-line {
+    margin: 10px;
+    border-right: 1px solid #ccc;
+}
+.vip-red{
+	margin-left: -20px;
+    text-align: center;
+    padding-top: 10px;
+}
+.vip-red img{
+	width:24px;
+}
+.vip-red p{
+	font-size:10px;
+	color:#999;
+}
+.vip-title-two{
+	background-color:#fff;
+	overflow:hidden;
+}
+/*小小七*/
+.data{
+    width:auto;
+    height:auto;
+    padding:10px 0px;
+    background-color: #fff;
+    overflow:hidden;
+}
+.data ul{
+    list-style: none;
+}
+.data ul li{
+    float: left;
+    width: 50%;
+    text-align: center;
+    font-size:12px;
+}
+.data ul li a span{
+    border-radius: 20px;
+    padding:5px 20px;
+    border:1px solid red;
+}
+.data ul li:first-child{
+    background: url(../images/borgrayr.png) repeat-y right;
+    background-size: 1px 1px;
+}
+.data ul li a{
+    text-decoration: none;
+    display: block;
+    color: #fa655b;
+    background: #fff;
+    border-radius: 15px;
+}
+.data ul li a .orange{
+    background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391);
+    color:#fff;
+}
+/*小小七结束*/
+/*小说开始*/
+.vip-story-banner{
+	background-color: #fff;
+	margin-top:10px;
+}
+.vip-story-banner-title{
+	width:auto;
+	height:auto;
+	padding:15px;
+	font-size:18px;
+	color:#333;
+	font-weight:bold;
+}
+.vip-story-banner-content{
+	background-color: #f5f5f5;
+	border:1px dashed #ddd;
+	border-radius:5px;
+	margin:0 15px;
+	padding:15px;
+}
+.vip-spack{
+	font-size:14px;
+	color:#333;
+}
+.vip-story-play{
+	display: block;
+    width: 133px;
+    height: 25px;
+    background: url(../images/musicbg.png) no-repeat;
+    background-size: 133px 25px;
+    position: relative;
+}
+.vip-story-play .click{
+	display: block;
+    width: auto;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    background-image: url(../images/music.png);
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    background-size: 12px 12px;
+    padding-left: 10px
+}
+.vip-story-play .num{
+	display: block;
+    width: auto;
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    color: #999;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    padding-left: 10px;
+}
+.vip-story-banner-box{
+	display:flex;
+	justify-content: space-between;
+}
+.vip-story-center{
+	width:auto;
+	height:auto;
+	background-color: #fff;
+	overflow:hidden;
+	font-size:13px;
+	color:#999;
+}
+.vip-story-play-right {
+    font-size: 12px;
+    color: #999;
+}
+.vip-story-text{
+	padding:15px;
+}
+.vip-story-img img{
+	width:100%;
+}
+.photo-text-padding{
+	width: auto;
+    height: 34px;
+    padding: 5px 0;
+}
+.photo-text-padding ul li{
+	width: 25%;
+    height: 24px;
+    float: left;
+}
+.photo-text-padding ul li a {
+    display: block;
+    width: auto;
+    height: 24px;
+    background: url(../images/borgrayr.png) repeat-y right;
+    background-size: 1px 1px;
+    text-align: center;
+    font-size: 0;
+}
+.photo-text-padding ul li a .item {
+    display: inline-block;
+    width: auto;
+    height: 24px;
+    line-height: 24px;
+    font-size: 10px;
+    color: #999;
+    position: relative;
+    padding-left: 18px;
+    margin: 0;
+}
+.photo-text-padding  ul li a .item span {
+    display: block;
+    width: 12px;
+    height: 12px;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -6px;
+    background-image: url(../images/inopera.png);
+    background-repeat: no-repeat;
+    background-size: 48px 24px;
+}
+.photo-text-padding ul li a .item span.icon1 {
+    background-position: 0px 0px;
+}
+.photo-text-padding  ul li a .item span.icon2 {
+    background-position: -12px 0px;
+}
+.photo-text-padding ul li a .item span.icon3{
+	background-position: -24px 0px;
+}
+.photo-text-padding  ul li a .item span.icon4 {
+    background-position: -36px 0px;
+}
+/*小说结束*/

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+        mui.init();
+    </script>
+    <link rel="stylesheet" href="css/T-header.css" />
+    <link rel="stylesheet" href="css/T-producedreser.css" />
+</head>
+<body>
+	<div>
+		<!--轮播-->
+		<banner>
+			<div id="slider" class="mui-slider mt40" >
+			  <div class="mui-slider-group mui-slider-loop">
+			    <!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+			    <div class="mui-slider-item mui-slider-item-duplicate">
+			      <a href="#">
+			        <img src="images/banner.jpg">
+			      </a>
+			    </div>
+			    <!-- 第一张 -->
+			    <div class="mui-slider-item">
+			      <a href="#">
+			        <img src="images/banner.jpg">
+			      </a>
+			    </div>
+			    <!-- 第二张 -->
+			    <div class="mui-slider-item">
+			      <a href="#">
+			        <img src="images/banner.jpg">
+			      </a>
+			    </div>
+			    <!-- 第三张 -->
+			    <div class="mui-slider-item">
+			      <a href="#">
+			        <img src="images/banner.jpg">
+			      </a>
+			    </div>
+			    <!-- 第四张 -->
+			    <div class="mui-slider-item">
+			      <a href="#">
+			        <img src="images/banner.jpg">
+			      </a>
+			    </div>
+			    <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+			    <div class="mui-slider-item mui-slider-item-duplicate">
+			      <a href="#">
+			        <img src="images/banner.jpg">
+			      </a>
+			    </div>
+			  </div>
+			</div>
+		</banner>
+		<div class="">
+			<div class="bf">
+				<div class="txt p15">
+            			如果你无法简洁的表达你的想法，那只说明你还不够了解它。阿尔伯特·爱因斯坦如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦
+            		</div>
+				<div>
+				   <a href="#">
+				     	<img class="mui-media-object" src="images/prophotocon2.jpg">
+				   </a>
+			   	</div>
+            		<div class="txt p15">
+            			如果你无法简洁的表达你的想法，那只说明你还不够了解它
+            		</div>
+			   	<div>
+				  	<a href="#">
+				    	<img class="mui-media-object" src="images/finewcon-main2.jpg">
+				  	</a>
+			   	</div>
+			    <div class="share">
+					<ul class="mui-row">
+						<li class="mui-col-xs-3 mui-col-sm-3">
+							<a href="#">
+								<div class="">
+									<span class="icon1"></span>
+									6666
+								</div>
+							</a>
+						</li>
+						<li class="mui-col-xs-3 mui-col-sm-3">
+							<a href="">
+								<div class="">
+									<span class="icon1 icon1_grade"></span>
+									300
+								</div>
+							</a>
+						</li>
+						<li class="mui-col-xs-3 mui-col-sm-3">
+							<a href="">
+								<div class="">
+									<span class="icon1 icon1_like"></span>
+									5000
+								</div>
+							</a>
+						</li>
+						<li class="mui-col-xs-3 mui-col-sm-3">
+							<a href="">
+								<div class="">
+									<span class="icon1 icon1_share"></span>
+									分享
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+            </div>
+		</div>
+	</div>
+	<script>
+		var gallery = mui('.mui-slider');
+		gallery.slider({
+  			interval:2000
+		});
+	</script>
+</body>
+</html>
+

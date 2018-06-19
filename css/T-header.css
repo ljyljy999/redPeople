@@ -1,0 +1,289 @@
+/*通用原子类*/
+ul,ol{
+	list-style: none;
+	padding: 0;
+}
+.fl{
+	float: left;
+}
+.mb10{
+	margin-bottom: 10px;
+}
+.mt40{
+	margin-top: 44px;
+}
+.mb40{
+	margin-bottom: 40px;
+}
+.fr{
+	float: right;
+}
+.bf{
+	background-color: #fff !important;
+}
+.mt10{
+	margin-top: 10px;
+}
+.pb30{
+	padding-bottom: 30px;
+}
+.pt30{
+	padding-top: 30px;
+}
+.pt10{
+	padding-top: 10px;
+}
+.p15{
+	padding: 15px;
+}
+
+
+
+
+
+/*头部导航栏*/
+header{
+	width: 100%;
+    height: 44px;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+.mui-segmented-control{
+	font-size:14px
+}
+.mui-segmented-control.mui-scroll-wrapper{
+	width: auto;
+	height: 44px;
+	margin: 0 88px 0 5px;
+	display: block;
+}
+.mui-segmented-control.mui-scroll-wrapper .mui-scroll{
+	/*width: 100%;*/
+	height:44px
+}
+.mui-segmented-control.mui-scroll-wrapper .mui-control-item{
+	padding: 0 11px 0 10px;
+}
+.mui-segmented-control .mui-control-item{
+	line-height: 44px;
+}
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active{
+	border-bottom: 0;
+	color:#333;
+}
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item{
+	position: relative;
+}
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item i{
+	display: block;
+    width: 1px;
+    height: 10px;
+    font-size: 0;
+    line-height: 0;
+    background: #ddd;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -5px;
+}
+header .logo{
+	position: absolute;
+	right: 14px;
+	top:0;
+	width:60px;
+	height:44px;
+	z-index: 2;
+}
+header .logo div{
+	width:30px;
+	height:44px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+header .logo div.logo_seek span.mui-icon{
+	font-size:18px;
+	color:#a1a1a1;
+	font-weight: 800;
+}
+header .logo div.logo_message span.mui-icon{
+	font-size:17px;
+	color:#a1a1a1;
+	font-weight: 800;
+}
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active{
+	border-bottom:0;
+	color: #333333;
+    background: #eeeeee;
+}
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item b{
+	display: none;
+    width: auto;
+    height: 2px;
+    background: #ff165b;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    left: 10px;
+    right: 11px;
+    bottom: 6px;
+}
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.active b{
+	display: block
+}
+
+
+.newest_curriculum_type{
+	padding: 10px 0;
+}
+.newest_curriculum_type a{
+	border-left: 2px solid #f54744;
+	padding-left: 13px;
+	line-height: 14px;
+	font-size:14px;
+	color:#333;
+}
+.newest_curriculum_type a span{
+	background: url(../images/inmore.png) no-repeat right center;
+    padding-right: 20px;
+    background-size: 5px 10px;
+}
+.newest_curriculum_content{
+	padding: 0 15px 15px 15px;
+	display: flex;
+}
+.newest_curriculum_content .newest_curriculum_content_img{
+	width:120px;
+	height:120px;
+	display: inline-block;
+}
+.newest_curriculum_content a img{
+	max-width: 100% !important;
+	height:100% !important;
+}
+.mui-table-view .mui-media-body{
+	margin-left: 15px;
+}
+.mui-table-view .mui-media-body a{
+	color:#000;
+	font-size:14px;
+}
+.mui-table-view .mui-media-body p{
+	font-size:12px;
+	padding-top: 8px;
+	color:#666;
+}
+.mui-table-view .mui-media-body p.txt{
+	color:#999;
+}
+.advertising{
+	width:100%;
+	line-height: 0;
+	padding-top: 44px;
+}
+.advertising img{
+	width: 100%;
+	height: auto;
+}
+.txt{
+	color:#999;
+}
+.overview-tit{
+	padding:15px;
+	position:relative;
+	overflow: hidden;
+}
+.overview-tit .logo{
+	width: 32px;
+	height:32px;
+	position: absolute;
+	top: 50%;
+	margin-top: -16px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.overview-tit .name{
+	width: auto;
+    height: 32px;
+    line-height: 32px;
+    float: left;
+    font-size: 14px;
+    color: #333;
+    padding-left: 42px;
+    margin-right: 5px;
+}
+.overview-tit .age{
+    width: auto;
+    height: 16px;
+    line-height: 16px;
+    float: left;
+    font-size: 10px;
+    color: #fff;
+    padding: 0 5px;
+    border-radius: 3px;
+    margin-top: 8px;
+    background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391);
+}
+.share{
+	width: auto;
+	padding: 5px 0;
+	height:34px;
+}
+.share ul{
+	padding: 0;
+	margin: 0;
+}
+.share ul li{
+	height: 24px;
+}
+.share ul li a{
+	display: block;
+	text-align: center;
+}
+.share ul li a div{
+	    display: inline-block;
+    width: auto;
+    height: 24px;
+    line-height: 24px;
+    font-size: 10px;
+    color: #999;
+    position: relative;
+    padding-left: 18px;
+    margin: 0;
+}
+.share ul li a div span.icon1{
+    width: 12px;
+    height: 12px;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -6px;
+    background-image: url(../images/inopera.png);
+    background-repeat: no-repeat;
+    background-size: 48px 24px;
+}
+.share ul li a div span.icon1_grade{
+	background-position: -12px 0;
+}
+.share ul li a div span.icon1_like{
+	background-position: -24px 0;
+}
+.share ul li a div span.icon1_grade{
+	background-position: -36px 0;
+}
+
+a div.icon-filter {
+    display: inline-block;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    background: url(../images/tabfilter.png) no-repeat right center;
+    background-size: 15px 15px;
+    padding-right: 25px;
+}
+

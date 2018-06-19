@@ -1,0 +1,336 @@
+.vip-class-title{
+	height:44px;
+	background-color: red;
+}
+.vip-class-photo img{
+	width:100%;
+	display:block;
+
+}
+/*小小七开始*/
+.vip-class-small{
+	width:auto;
+	height:auto;
+	background-color: #fff;
+	display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #ccc;
+}
+.vip-class-tu{
+	width:62px;
+	height:62px;
+	position:relative;
+}
+.vip-class-tu img{
+	width:62px;
+	height:62px;
+	border:1px solid red;
+	border-radius:50%;
+	position:absolute;
+	top:-10px;
+	left:10;
+}
+.vip-blue img {
+    width: 14px;
+    height: 14px;
+}
+.vip-small{
+	margin:10px;
+}
+.vip-small p{
+	font-size:10px;
+	color:#999;
+}
+.small-small{
+	font-size:14px;
+	color:#333;
+}
+.small-fen{
+	font-size:12px;
+	color:#999;
+}
+.vip-line {
+    margin: 10px;
+    border-right: 1px solid #ccc;
+}
+.vip-red{
+	margin-left: -20px;
+    text-align: center;
+    padding-top: 10px;
+}
+.vip-red img{
+	width:24px;
+}
+.vip-red p{
+	font-size:10px;
+	color:#999;
+}
+.vip-title-two{
+	background-color:#fff;
+	overflow:hidden;
+}
+/*小小七*/
+.data{
+    width:auto;
+    height:auto;
+    padding:10px 0px;
+    background-color: #fff;
+    overflow:hidden;
+}
+.data ul{
+    list-style: none;
+}
+.data ul li{
+    float: left;
+    width: 50%;
+    text-align: center;
+    font-size:12px;
+}
+.data ul li a span{
+    border-radius: 20px;
+    padding:5px 20px;
+    border:1px solid red;
+}
+.data ul li:first-child{
+    background: url(../images/borgrayr.png) repeat-y right;
+    background-size: 1px 1px;
+}
+.data ul li a{
+    text-decoration: none;
+    display: block;
+    color: #fa655b;
+    background: #fff;
+    border-radius: 15px;
+}
+.data ul li a .orange{
+    background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391);
+    color:#fff;
+}
+/*小小七结束*/
+/*导师开始*/
+.vip-three-title{
+	width:auto;
+	height:40px;
+	line-height:40px;
+	background-color: #fff;
+	margin-top:10px;
+	border-bottom:1px solid #ccc;
+}
+.vip-three-title ul{
+	display:flex;
+	justify-content: space-between;
+}
+.vip-three-title ul li{
+	width:33%;
+	text-align: center;
+	font-size:14px;
+}
+.vip-three-title ul li a{
+		color:#666;
+}
+.vip-three-title .cur{
+	background-color: #eee;
+}
+/*导师结束*/
+/*内容开始*/
+.vip-content{
+    width: auto;
+    height: auto;
+    background: #fff;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+}
+.vip-center-title{
+	width:auto;
+	height:auto;
+	text-align: center;
+	padding-top:30px;
+}
+.vip-center-top{
+	display:inline-block;
+	height:26px;
+	line-height:26px;
+	padding:0 12px;
+	border-radius: 15px;
+	background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391);
+	color:#fff;
+}
+.vip-center-left{
+	display:inline-block;
+	height:26px;
+	padding-left: 20px;
+	background: url(../images/finecoursecon-tit.png) no-repeat left center;
+    background-size: 11px 11px;
+}
+.vip-center-right{
+	display: inline-block;
+    width: auto;
+    height: 26px;
+    padding-right: 20px;
+    background: url(../images/finecoursecon-tit.png) no-repeat right center;
+    background-size: 11px 11px;
+    font-size: 16px;
+    color: #fff;
+}
+.vip-center-photo{
+	width:auto;
+	height:auto;
+	padding:25px 15px 0 15px;
+}
+.vip-center-photo img{
+	width:100%;
+	border-radius: 5px;
+}
+.vip-text{
+	width:auto;
+	height:auto;
+	font-size:14px;
+	text-indent: 2em;
+	padding: 25px 35px 0 35px;
+	color:#999;
+}
+.vip-list{
+	width:auto;
+	height:auto;
+	padding:25px 35px 0 35px;
+}
+.vip-list ul{
+	display: block;
+	 border-top: 1px dotted #ddd;
+}
+.vip-list ul li{
+	 border-bottom: 1px dotted #ddd;
+}
+.vip-list ul li a{
+	display: block;
+    width: auto;
+    height: auto;
+    line-height: 20px;
+    padding: 10px 0;
+    position: relative;
+    padding-left: 10px;
+    font-size: 12px;
+    color: #999;
+}
+.vip-list i{
+	display: block;
+	width:4px;
+	height:4px;
+	background: #f54744;
+	border-radius:50%;
+	position:absolute;
+	top:50%;
+	margin-top:-2px;
+}
+.vip-list ul li a span{
+	margin-left: 10px;;
+}
+.vip-content-photo img{
+	width:100%;
+}
+.vip-famous{
+	width:auto;
+	height:auto;
+
+	padding: 15px 15px 0 15px;
+}
+.vip-famous ul li{
+	margin-top:10px;
+}
+.vip-famous-title{
+	width: auto;
+    height: auto;
+    padding: 15px 15px 0 15px;
+}
+.vip-famous-box{
+	    width: auto;
+    height: auto;
+    background: #fafafa;
+    border: 1px dashed #ddd;
+    border-radius: 5px;
+    padding: 15px;
+}
+.vip-famous-title{
+	width: auto;
+    height: 60px;
+    position: relative;
+    padding-left: 70px;
+}
+.vip-famous-photo{
+	width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 3px 2px 3px #dddddd;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.vip-famous-photo img{
+	width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.vip-famous-left span{
+	font-size:14px;
+	color:#333;
+}
+.vip-famous-left .vip-p p{
+	display: inline-block;
+	width:auto;
+	height:16px;
+	line-height: 16px;
+	background: -webkit-linear-gradient(left, #f58762 , #fb5b5b 70%, #ff5391);
+	border-radius:10px ;
+	padding:0 10px;
+	font-size:10px;
+	color:#fff;
+}
+.vip-famous-text{
+	width:auto;
+	height:auto;
+	font-size:14px;
+	color:#999;
+	padding-top: 15px;
+}
+.vip-center-five{
+	    padding: 20px 15px 0 15px;
+}
+.vip-center-five ul li{
+	width:auto;
+	height:auto;
+	font-size:14px;
+	color:#999;
+	padding-left:20px;
+	background: url(../images/finecoursecon-for.png) no-repeat left center;
+    background-size: 14px 14px;
+}
+.vip-content-box{
+	width: auto;
+    height: auto;
+    padding: 15px 15px 0 15px;
+}
+.vip-content-one{
+	padding:5px 0;
+}
+.vip-num{
+	margin:0 auto;
+	width: 32px;
+    height: 32px;
+    border: 1px dotted #e30a20;
+    border-radius:50%;
+    padding:1px;
+    text-align: center;
+}
+.vip-num span{
+	display: block;
+	width:28px;
+	height:28px;
+	line-height:28px;
+	font-size:18px;
+	background: -webkit-linear-gradient(left, #f58762 , #fb5b5b 70%, #ff5391);
+	border-radius:50%;
+	color:#fff;
+}
+
+
+

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link href="css/mui.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+    <script src="js/mui.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            -webkit-user-select: none;
+            -webkit-touch-callout: none;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            -webkit-text-size-adjust: none;
+            background-color: #f6f6f6;
+            font: 16px/1.25 PingFangSC-Regular, Helvetica, "Droid Sans", Arial, sans-serif;
+        }
+        .wrapper{
+            width: auto;
+            height: auto;
+            padding: 44px 0 0 0;
+        }
+        .tab{
+            width: auto;
+            height: 40px;
+            background: url(images/borgrayb.png) repeat-x bottom #fff;
+            background-size: 1px 1px;
+        }
+        .tab ul li{
+            width: 33.333%;
+            height: 40px;
+            float: left;
+        }
+        .tab ul li a{
+            display: block;
+            width: auto;
+            height: 40px;
+            line-height: 40px;
+            font-size: 14px;
+            color: #666;
+            text-align: center;
+            position: relative;
+        }
+        .tab ul li a.on{
+            color: #333333;
+            background: #eeeeee;
+        }
+        .tab ul li a span.icon-filter{
+            display: inline-block;
+            width: auto;
+            height: 40px;
+            line-height: 40px;
+            background: url(images/tabfilter.png) no-repeat right center;
+            background-size: 15px 15px;
+            padding-right: 25px;
+        }
+        .main{
+            width: auto;
+            height: auto;
+        }
+        .main .item{
+            width: auto;
+            height: auto;
+            background: #fff;
+            margin-bottom: 10px;
+        }
+        .main .item .tit{
+            width: auto;
+            height: auto;
+            font-size: 0;
+            padding: 10px 0;
+        }
+        .main .item .tit a{
+            display: inline-block;
+            width: auto;
+            height: auto;
+            font-size: 0;
+            border-left: 2px solid #f54744;
+            padding-left: 12px;
+        }
+        .main .item .tit a span{
+            display: inline-block;
+            width: auto;
+            height: 14px;
+            line-height: 14px;
+            font-size: 14px;
+            color: #333;
+            padding-right: 20px;
+            background: url(images/inmore.png) no-repeat right center;
+            background-size: 5px 10px;
+        }
+        .main .item .img{
+            width: auto;
+            height: auto;
+            font-size: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="mui-slider">
+            <div class="mui-slider-group mui-slider-loop">
+                <!--支持循环，需要重复图片节点-->
+                <div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="#" /></a></div>
+                <div class="mui-slider-item"><a href="#"><img src="images/banner.jpg" /></a></div>
+                <div class="mui-slider-item"><a href="#"><img src="images/banner.jpg" /></a></div>
+                <div class="mui-slider-item"><a href="#"><img src="images/banner.jpg" /></a></div>
+                <div class="mui-slider-item"><a href="#"><img src="images/banner.jpg" /></a></div>
+                <!--支持循环，需要重复图片节点-->
+                <div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="images/banner.jpg" /></a></div>
+            </div>
+        </div>
+    </div>
+    <div class="tab">
+        <ul>
+            <li>
+                <a href="javascript:void(0)" class="on">最新</a>
+            </li>
+            <li>
+                <a href="javascript:void(0)">最热</a>
+            </li>
+            <li>
+                <a href="javascript:void(0)" class="opfilter">
+                    <span class="icon-filter">筛选</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="main">
+        <div class="item">
+            <div class="tit">
+                <a href="producedvideocon.html">
+                    <span>网络红人概述</span>
+                </a>
+            </div>
+            <div class="img">
+                <a href="producedvideocon.html">
+                    <img src="images/finecourse1.jpg">
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="tit">
+                <a href="producedvideocon.html">
+                    <span>平台选择</span>
+                </a>
+            </div>
+            <div class="img">
+                <a href="producedvideocon.html">
+                    <img src="images/finecourse2.jpg">
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="tit">
+                <a href="producedvideocon.html">
+                    <span>案例分析</span>
+                </a>
+            </div>
+            <div class="img">
+                <a href="producedvideocon.html">
+                    <img src="images/finecourse3.jpg">
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="tit">
+                <a href="producedvideocon.html">
+                    <span>自我定位</span>
+                </a>
+            </div>
+            <div class="img">
+                <a href="producedvideocon.html">
+                    <img src="images/finecourse4.jpg">
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="tit">
+                <a href="producedvideocon.html">
+                    <span>内容选择</span>
+                </a>
+            </div>
+            <div class="img">
+                <a href="producedvideocon.html">
+                    <img src="images/finecourse5.jpg">
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="tit">
+                <a href="producedvideocon.html">
+                    <span>形象塑造</span>
+                </a>
+            </div>
+            <div class="img">
+                <a href="producedvideocon.html">
+                    <img src="images/finecourse6.jpg">
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="tit">
+                <a href="producedvideocon.html">
+                    <span>器材使用</span>
+                </a>
+            </div>
+            <div class="img">
+                <a href="producedvideocon.html">
+                    <img src="images/finecourse7.jpg">
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="tit">
+                <a href="producedvideocon.html">
+                    <span>自我推广</span>
+                </a>
+            </div>
+            <div class="img">
+                <a href="producedvideocon.html">
+                    <img src="images/finecourse8.jpg">
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="tit">
+                <a href="producedvideocon.html">
+                    <span>网络商业</span>
+                </a>
+            </div>
+            <div class="img">
+                <a href="producedvideocon.html">
+                    <img src="images/finecourse7.jpg">
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
