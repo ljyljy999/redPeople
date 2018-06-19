@@ -1,0 +1,144 @@
+/*公共*/
+.pt10{
+	padding-top: 10px;
+}
+.mb10{
+	margin-bottom: 10px;
+}
+/*头部*/
+.warp{
+	width:100%;
+	height: 44px;
+	display:flex;
+	justify-content: space-around;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+.mui-scroll-wrapper{
+	background-color: #fff;
+}
+
+.mui-segmented-control.mui-scroll-wrapper .mui-control-item {
+	padding: 0 11px 0 10px;
+	font-size:14px;
+	position:relative;
+
+}
+.mui-slider .mui-slider-group .mui-slider-item img{
+	margin-top:40px;
+}
+.line{
+	width:1px;
+	height:10px;
+	margin-top: 13px;
+	border-right:1px solid #ddd;
+	position:absolute ;
+}
+
+.nav-search{
+	width:60px;
+	height:38px;
+	background-color: #fff;
+	padding:10px 10px;
+	display:flex;
+	justify-content: space-around;
+}
+.nav-search .mui-icon{
+	font-size: 15px;
+	padding-left:10px;
+}
+.nav-search .mui-icon-bars{
+	padding-right: 10px;
+}
+
+/*切换*/
+.vip-title{
+	width:auto;
+	height:40px;
+	background-color:#fff;
+	border-bottom: 1px solid #eee;
+}
+.vip-title ul li{
+	width:33%;
+	float: left;
+	text-align: center;
+	
+}
+.vip-title ul li a{
+	display:block;
+	width:auto;
+	height:40px;
+	line-height:40px;
+	font-size:14px;
+	color:#666;
+}
+.vip-title .cur{
+	background-color: #eee;
+	color:#333;
+}
+.vip-title .lou{
+	display:inline-block;
+	height:40px;
+	line-height: 40px;
+	background:url(../images/tabfilter.png)no-repeat right center;
+	background-size:15px 15px;
+	padding-right:25px;
+}
+.vipdata ul li{
+	background-color: #fff;
+}
+.data-title span{
+	height:14px;
+	line-height:14px;
+	border-left: 2px solid #f54744;
+	font-size:14px;
+	display:flex;
+	align-items:center;
+	color:#333;
+	padding-left:13px;
+}
+
+.data-title{
+	padding:10px 0;
+	display:flex;
+}
+.data-title .data-icon{
+	display:inline-block;
+	width:10px;
+	height:10px;
+	background:url(../images/inmore.png)no-repeat right center;
+	background-size:5px 10px;
+	margin-left:20px;
+}
+.data-item{
+	display:flex;
+	padding:0 15px 15px 15px;
+	
+}
+.data-item img{
+	width:120px;
+	height:120px;
+	margin-right: 20px;
+	border-radius: 5px;
+}
+.data-item-text{
+	width:240px;
+}
+.data-one{
+	color:#000;
+	font-size:14px;
+}
+.data-two{
+	color:#999;
+	font-size:12px;
+}
+.data-three{
+	font-size:12px;
+	color:#666;
+	text-overflow: ellipsis;
+  	overflow-x: hidden;
+  	white-space: nowrap;
+}
+

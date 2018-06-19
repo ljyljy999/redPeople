@@ -1,0 +1,192 @@
+.vip-class-title{
+	height:44px;
+	background-color: red;
+}
+.vip-class-photo img{
+	width:100%;
+	display:block;
+
+}
+/*小小七开始*/
+.vip-class-small{
+	width:auto;
+	height:auto;
+	background-color: #fff;
+	display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #ccc;
+}
+.vip-class-tu{
+	width:62px;
+	height:62px;
+	position:relative;
+}
+.vip-class-tu img{
+	width:62px;
+	height:62px;
+	border:1px solid red;
+	border-radius:50%;
+	position:absolute;
+	top:-10px;
+	left:10;
+}
+.vip-blue img {
+    width: 14px;
+    height: 14px;
+}
+.vip-small{
+	margin:10px;
+}
+.vip-small p{
+	font-size:10px;
+	color:#999;
+}
+.small-small{
+	font-size:14px;
+	color:#333;
+}
+.small-fen{
+	font-size:12px;
+	color:#999;
+}
+.vip-line {
+    margin: 10px;
+    border-right: 1px solid #ccc;
+}
+.vip-red{
+	margin-left: -20px;
+    text-align: center;
+    padding-top: 10px;
+}
+.vip-red img{
+	width:24px;
+}
+.vip-red p{
+	font-size:10px;
+	color:#999;
+}
+.vip-title-two{
+	background-color:#fff;
+	overflow:hidden;
+}
+/*小小七*/
+.data{
+    width:auto;
+    height:auto;
+    padding:10px 0px;
+    background-color: #fff;
+    overflow:hidden;
+}
+.data ul{
+    list-style: none;
+}
+.data ul li{
+    float: left;
+    width: 50%;
+    text-align: center;
+    font-size:12px;
+}
+.data ul li a span{
+    border-radius: 20px;
+    padding:5px 20px;
+    border:1px solid red;
+}
+.data ul li:first-child{
+    background: url(../images/borgrayr.png) repeat-y right;
+    background-size: 1px 1px;
+}
+.data ul li a{
+    text-decoration: none;
+    display: block;
+    color: #fa655b;
+    background: #fff;
+    border-radius: 15px;
+}
+.data ul li a .orange{
+    background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391);
+    color:#fff;
+}
+/*小小七结束*/
+/*导师开始*/
+.vip-three-title{
+	width:auto;
+	height:40px;
+	line-height:40px;
+	background-color: #fff;
+	margin-top:10px;
+	border-bottom:1px solid #ccc;
+}
+.vip-three-title ul{
+	display:flex;
+	justify-content: space-between;
+}
+.vip-three-title ul li{
+	width:33%;
+	text-align: center;
+	font-size:14px;
+}
+.vip-three-title ul li a{
+		color:#666;
+}
+.vip-three-title .cur{
+	background-color: #eee;
+}
+/*导师结束*/
+.vip-new{
+	width:auto;
+	height:auto;
+	overflow:hidden;
+}
+.vip-new li{
+	margin-bottom:5px;
+	background-color: #fff;
+}
+.vip-box{
+	display: flex;
+	justify-content: space-between;
+	padding:10px;
+}
+.vip-box-left {
+    margin-right: 10px;
+}
+.vip-list{
+	font-size: 14px;
+    color: #333;
+}
+.vip-list-one{
+	width:auto;
+	height:auto;
+	font-size:12px;
+	color:#999;
+	padding-top: 5px;
+}
+.vip-img img{
+	width:110px;
+	height:80px;
+}
+.vip-icon span{
+	    display: inline-block;
+    width: auto;
+    height: 20px;
+    line-height: 20px;
+    font-size: 10px;
+    color: #999;
+    padding-left: 15px;
+    position: relative;
+}
+.vip-icon i{
+	display: block;
+    width: 12px;
+    height: 12px;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -6px;
+    background: url(../images/inopera.png) no-repeat 0px 0px;
+    background-size: 48px 24px;
+}
+
+
+

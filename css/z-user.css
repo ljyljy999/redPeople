@@ -1,0 +1,230 @@
+/**{*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+/*}*/
+.mt10{
+    margin-top: 10px;
+}
+.mb5{
+    margin-bottom: 5px;
+}
+.my{
+    width: auto;
+    height: auto;
+    background-color: #eee;
+}
+.top img{
+    width: 100%;
+}
+.user{
+    width:auto;
+    height:auto;
+    background-color: #fff;
+}
+.user-box{
+    width: auto;
+    height: auto;
+    background: url(../images/borgrayb.png) repeat-x bottom;
+    background-size: 1px 1px;
+    padding: 0 15px 10px 15px;
+    position: relative;
+    margin-top: -5px;
+}
+.user-icon{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left:15px;
+    top:-18px;
+    z-index:2
+}
+.user-icon img{
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    border:2px solid #fff;
+}
+.user-text{
+    width:auto;
+    height:60px;
+    padding-left:80px;
+}
+.user-name{
+    padding-top: 8px;
+    font-size: 15px;
+    color: #333;
+}
+.user-name span{
+    display:inline-block;
+    background:url(../images/vip-blue.png)no-repeat right;
+    background-size:14px 14px;
+    padding-right:20px;
+}
+.user-guanzhu{
+    font-size:12px;
+    color:#999;
+    padding-top:5px;
+}
+.user-guanzhu a{
+    color:#999;
+    text-decoration: none;
+}
+.user-box p{
+    font-size:12px;
+    color:#999;
+}
+/*个人资料*/
+.data{
+    width:auto;
+    height:auto;
+    padding:10px 0px;
+    background-color: #fff;
+    overflow:hidden;
+}
+.data ul{
+    list-style: none;
+}
+.data ul li{
+    float: left;
+    width: 50%;
+    text-align: center;
+    font-size:12px;
+}
+.data ul li a span{
+    border-radius: 20px;
+    padding:5px 20px;
+    border:1px solid red;
+}
+.data ul li:first-child{
+    background: url(../images/borgrayr.png) repeat-y right;
+    background-size: 1px 1px;
+}
+.data ul li a{
+    text-decoration: none;
+    display: block;
+    color: #fa655b;
+    background: #fff;
+    border-radius: 15px;
+}
+.data ul li a .orange{
+    background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391);
+    color:#fff;
+}
+.banner{
+    width:auto;
+    height:auto;
+    margin-bottom: 50px;
+}
+
+.banner .banner-inner{
+    width:auto;
+    height:auto;
+    background-color: #fff;
+}
+.banner .banner-inner ul li{
+    padding-left:50px;
+}
+.banner .banner-inner ul li a{
+    display: block;
+    width:auto;
+    height: 42px;
+    background: url(../images/borgrayb.png) repeat-x bottom;
+    background-size: 1px 1px;
+    position: relative;
+    font-size: 14px;
+    color: #333333;
+    line-height: 42px;
+    text-decoration: none;
+}
+.banner .banner-inner ul li a span{
+    display:block;
+    width: 50px;
+    height: 42px;
+    font-size:0;
+    line-height: 0;
+    text-align: center;
+    position: absolute;
+    left: -50px;
+    top: 0;
+    padding:11px 0;
+}
+.banner .banner-inner ul li a span img{
+    width: 20px;
+    height: 20px;
+}
+.banner .banner-inner ul li a i{
+    display: block;
+    width: 5px;
+    height: 10px;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    margin-top: -5px;
+    background: url(../images/inmore.png) no-repeat;
+    background-size: 5px 10px;
+    opacity: 0.5;
+}
+.foot{
+    width: 100%;
+    height: 50px;
+    background: url(../images/borgrayt.png) repeat-x top #fff;
+    background-size: 1px 1px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 999;
+}
+.foot-footer li{
+    list-style: none;
+    width:20%;
+    height: 49px;
+    float: left;
+}
+.foot-footer li a{
+    display: block;
+    width: auto;
+    height: 49px;
+    padding-top: 8px;
+    color:#666;
+    text-decoration: none;
+}
+.foot-footer li a span{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size:10px;
+
+}
+.foot-footer li a span.icon{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-image: url(../images/footer.png);
+    background-size: 100px 40px;
+}
+.foot-footer li a span.icon .icon1{
+    background-position: 0px 0px;
+}
+.foot-footer li a span.icon2{
+    background-position: -20px 0px;
+}
+.foot-footer li a span.icon3{
+    background-position: -40px 0px;
+}
+.foot-footer li a span.icon4{
+    background-position: -60px 0px;
+}
+.foot-footer li a span.icon5{
+    background-position: -80px -20px;
+}
+.foot-footer li a .text{
+    color:red;
+}
+
+
+
+
+
