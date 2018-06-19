@@ -1,0 +1,645 @@
+.mt10{
+	margin-top:10px;
+}
+.mui-content{
+	overflow: scroll;
+	margin-bottom: 50px;
+}
+/*轮播下列表*/
+.dismenu {
+	margin-top: 125px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background: url(../images/borgrayb.png) repeat-x bottom #fff;
+    background-size: 1px 1px;
+    padding: 0 7px;
+}
+.dismenu ul{
+	display: flex;
+	justify-content: space-around;
+}
+.dismenu ul li{
+    width: 20%;
+    height: auto;
+    padding: 16px 0;
+}
+.dismenu ul li a {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+.dismenu ul li a span.icon{
+	display: flex;
+	justify-content: center;
+}
+.dismenu ul li a span.icon img {
+    width: 30px;
+    height: 30px;
+}
+.dismenu ul li a span.text {
+	text-align: center;
+    font-size: 12px;
+    color: #000000;
+    padding-top: 5px;
+}
+.dismain{
+	width:100%;
+	height:auto;
+}
+.disitem{
+	background-color: #fff;
+}
+.distitle {
+    width: auto;
+    height: 44px;
+    padding: 0 15px;
+    position: relative;
+}
+.distitle .name {
+    width: auto;
+    height: 44px;
+    line-height: 44px;
+    font-size: 16px;
+    color: #313539;
+    font-weight: bold;
+}
+.disrecommend {
+    width: 100%;
+    height: auto;
+    padding-bottom: 15px;
+}
+.swiper-container {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.disrecommend .mui-segmented-control.mui-scroll-wrapper{
+	height:137px;
+	overflow: hidden;
+}
+.disrecommend .mui-segmented-control.mui-scroll-wrapper .mui-scroll{
+	height:137px;
+}
+.disrecommend .mui-segmented-control.mui-scroll-wrapper .mui-scroll .mui-control-item{
+	width:126px;
+	padding:0;
+	text-align: left;
+	margin-right: 15px;
+}
+.disrecommend .mui-segmented-control.mui-scroll-wrapper .mui-scroll .mui-control-item:first-child{
+	margin-left: 15px;
+}
+.disrecommend .mui-segmented-control.mui-scroll-wrapper .img img{
+	border-radius: 5px;
+}
+.disrecommend .mui-segmented-control.mui-scroll-wrapper .mui-control-item .tit{
+	height: 2.6em;
+    line-height: 1.3em;
+    font-size: 12px;
+    color: #333;
+    margin-top: 8px;
+}
+/*资讯*/
+.disitems{
+	margin-top: 10px;
+}
+.distitle .more {
+    width: auto;
+    height: 44px;
+    line-height: 44px;
+    position: absolute;
+    right: 15px;
+    top: 0;
+}
+.distitle .more a{
+	font-size: 12px;
+    color: #999999;
+}
+.disnews {
+    width: auto;
+    height: auto;
+    padding: 0 15px;
+}
+.disnews ul li {
+    width: auto;
+    height: auto;
+    padding-bottom: 15px;
+}
+.disnews ul li a {
+    display: block;
+    width: auto;
+    height: 66px;
+    position: relative;
+    padding-left: 80px;
+}
+.disnews ul li a .img {
+    width: 66px;
+    height: 66px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.disnews ul li a .img img {
+    width: 66px;
+    height: 66px;
+}
+.disnews ul li a .con {
+    width: auto;
+    height: auto;
+}
+.disnews ul li a .con .tit {
+    width: auto;
+    height: auto;
+    font-size: 12px;
+    color: #000;
+    line-height: 18px;
+}
+.disnews ul li a .con .txt {
+    width: auto;
+    height: auto;
+    font-size: 12px;
+    color: #666;
+    line-height: 18px;
+    padding-top: 5px;
+}
+.disnext {
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 10px 0 15px 0;
+}
+.disnext a {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    font-size: 12px;
+    color: #999999;
+    background: url(../images/disitem-next.png) no-repeat left center;
+    background-size: 12px 12px;
+    padding-left: 15px;
+}
+/*红人学堂*/
+.dislesson {
+    width: auto;
+    height: auto;
+}
+.dislesson ul li {
+    width: auto;
+    height: auto;
+    background: url(../images/borgrayb.png) repeat-x bottom;
+    background-size: 1px 1px;
+    padding: 0 15px 6px 15px;
+    margin-bottom: 6px;
+}
+.dislesson ul li a {
+    display: block;
+    width: auto;
+    height: 88px;
+    position: relative;
+    padding-left: 82px;
+}
+.dislesson ul li a .img {
+    width: 68px;
+    height: 88px;
+    font-size: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.dislesson ul li a .con {
+    width: auto;
+    height: auto;
+}
+.dislesson ul li a .con .tit {
+    width: auto;
+    height: auto;
+    font-size: 14px;
+    color: #333;
+    line-height: 18px;
+}
+.dislesson ul li a .con .person {
+    width: auto;
+    height: auto;
+    font-size: 13px;
+    color: #333;
+    line-height: 18px;
+    padding-top: 2px;
+}
+.dislesson ul li a .con .txt {
+    width: auto;
+    height: auto;
+    font-size: 12px;
+    color: #999;
+    line-height: 18px;
+    padding-top: 5px;
+}
+.disfree .item {
+    width: auto;
+    height: auto;
+    background: url(../images/borgrayb.png) repeat-x bottom;
+    background-size: 1px 1px;
+    padding: 0 15px;
+    margin-bottom: 15px;
+}
+.disfree .item .tit {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    line-height: 14px;
+}
+.disfree .item .tit .name {
+    width: auto;
+    height: auto;
+    float: left;
+    font-size: 14px;
+    color: #333;
+}
+.disfree .item .tit .more {
+    width: auto;
+    height: auto;
+    float: right;
+    font-size: 12px;
+    color: #999;
+}
+.disfree .item .tit .more a {
+    color: #999;
+}
+.disfree .item .list {
+    width: auto;
+    height: auto;
+    padding-top: 10px;
+}
+.disfree .item .list ul li {
+    width: auto;
+    height: auto;
+    line-height: 18px;
+    font-size: 12px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px;
+    background-size: 12px 12px;
+    background-image: url(../images/disfree1.png);
+}
+.disfree .item .list ul li:nth-child(2) {
+    background-image: url(../images/disfree2.png);
+}
+.disfree .item .list ul li:nth-child(3) {
+    background-image: url(../images/disfree3.png);
+}
+.disfree .item .list ul li a {
+    color: #999999;
+}
+/*学堂出品*/
+.disproduced-item {
+    width: auto;
+    height: auto;
+    background: url(../images/borgrayb.png) repeat-x bottom;
+    background-size: 1px 1px;
+    padding-top: 10px;
+}
+.disproduced-tit {
+    width: auto;
+    height: auto;
+    line-height: 14px;
+    padding: 0 15px 10px 15px;
+    overflow: hidden;
+}
+.disproduced-tit .name {
+    width: auto;
+    height: auto;
+    float: left;
+    font-size: 14px;
+    color: #000;
+}
+.disproduced-tit .more {
+    width: auto;
+    height: auto;
+    float: right;
+    font-size: 12px;
+}
+.disproduced-tit .more a {
+    color: #999;
+}
+.disphoto {
+    width: auto;
+    height: auto;
+    padding: 0 13px;
+    overflow: hidden;
+}
+.disphoto ul li {
+    width: 33.333%;
+    height: auto;
+    float: left;
+    padding: 0 2px;
+}
+.disphoto ul li a {
+    display: block;
+    width: auto;
+    height: auto;
+    position: relative;
+}
+.disphoto ul li a .con {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 2px;
+    color: #fff;
+}
+.disphoto ul li a .con .tit {
+    width: auto;
+    height: auto;
+    font-size: 12px;
+}
+.disphoto ul li a .con .txt {
+    width: auto;
+    height: auto;
+    font-size: 9px;
+}
+.disvideo {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    padding: 0 13px;
+}
+.disvideo ul li {
+    width: 50%;
+    height: auto;
+    float: left;
+    padding: 0 2px 10px 2px;
+}
+.disvideo ul li a .img {
+    width: auto;
+    height: auto;
+    font-size: 0;
+    position: relative;
+}
+.disvideo ul li a .img span {
+    display: block;
+    width: auto;
+    height: auto;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: 9px;
+    color: #fff;
+    background: url(../images/dissee.png) no-repeat left center;
+    padding-left: 15px;
+    background-size: auto 7px;
+}
+.disvideo ul li a .con {
+    width: auto;
+    height: auto;
+    padding-top: 5px;
+}
+.disvideo ul li a .con .tit {
+    width: auto;
+    height: auto;
+    font-size: 12px;
+    color: #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.disvideo ul li a .con .txt {
+    width: auto;
+    height: auto;
+    font-size: 12px;
+    color: #999;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 2px;
+}
+.dismusic {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    padding: 0 13px;
+}
+.dismusic ul li {
+    width: 33.333%;
+    height: auto;
+    float: left;
+    padding: 0 2px;
+}
+.dismusic ul li a .img {
+    width: auto;
+    height: auto;
+    font-size: 0;
+    position: relative;
+}
+.dismusic ul li a .img span {
+    display: block;
+    width: auto;
+    height: auto;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: 9px;
+    color: #fff;
+    background: url(../images/dismusic.png) no-repeat left center;
+    padding-left: 13px;
+    background-size: auto 7px;
+}
+.dismusic ul li a .con {
+    width: auto;
+    height: auto;
+    padding-top: 5px;
+}
+.dismusic ul li a .con .tit {
+    width: auto;
+    height: auto;
+    font-size: 12px;
+    color: #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+}
+.dismusic ul li a .con .txt {
+    width: auto;
+    height: auto;
+    font-size: 12px;
+    color: #999;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+    margin-top: 2px;
+}
+/*实物商城*/
+.disshop {
+    width: auto;
+    height: auto;
+    padding: 0 15px 15px 15px;
+}
+.disshop .mui-segmented-control.mui-scroll-wrapper{
+	height:148px;
+	overflow: hidden;
+}
+.disshop .mui-segmented-control.mui-scroll-wrapper .mui-scroll{
+	height:148px;
+}
+.disshop .mui-segmented-control.mui-scroll-wrapper .mui-scroll .mui-control-item{
+	width:112px;
+	padding:0;
+	text-align: left;
+	margin:0 2px;
+}
+.disshop .mui-segmented-control.mui-scroll-wrapper .img img{
+	width:112px;
+	height:107px;
+}
+.disshop .mui-segmented-control.mui-scroll-wrapper .mui-control-item .con{
+	width:112px;
+	height:30px;
+	padding:5px 0;
+    font-size: 12px;
+    color: #333;
+}
+.disshop .mui-segmented-control.mui-scroll-wrapper .mui-control-item .tit{
+	height: 15px;
+   line-height: 15px;
+}
+.disshop .mui-segmented-control.mui-scroll-wrapper .mui-control-item .txt{
+	height: 15px;
+   line-height: 15px;
+   color: #999;
+}
+/*最佳导师*/
+.intutor {
+    width: auto;
+    height: 80px;
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+.intutor .mui-scroll-wrapper,.intutor .mui-scroll-wrapper .mui-scroll{
+	height:65px;
+}
+.intutor .mui-scroll-wrapper .mui-scroll .mui-control-item{
+	width: 52px;
+    height: auto;
+    padding:0;
+    margin-right: 10px;
+}
+.intutor .mui-scroll-wrapper .mui-scroll .mui-control-item:first-child{
+	margin-left: 10px;
+}
+.intutor .mui-scroll-wrapper .mui-scroll .mui-control-item .img{
+	position: relative;
+	padding:0;
+}
+.intutor .mui-scroll-wrapper .mui-scroll .mui-control-item .img img{
+	width:42px;
+	height:42px;
+	border-radius: 50%;
+}
+.intutor .mui-scroll-wrapper .mui-scroll .mui-control-item .img i{
+	width:14px;
+	height:14px;
+	border-radius: 50%;
+	position: absolute;
+	bottom:0;
+	right:0;
+	text-align: center;
+    line-height: 14px;
+    font-size: 10px;
+    color: #fff;
+}
+.intutor .mui-scroll-wrapper .mui-scroll .mui-control-item .img .num1{
+	background-color: red;
+}
+.intutor .mui-scroll-wrapper .mui-scroll .mui-control-item .img .num2{
+	background-color: #ff9900;
+}
+.intutor .mui-scroll-wrapper .mui-scroll .mui-control-item .img .num3{
+	background-color: #ffcc00;
+}
+.intutor .mui-scroll-wrapper .mui-scroll .mui-control-item .txt{
+	padding-top: 5px;
+	height: 23px;
+	line-height: 23px;
+	font-size: 9px;
+	color: #666;
+}
+/*直播*/
+.distitle .name span {
+    font-size: 12px;
+    color: #ff3333;
+    font-weight: normal;
+    padding-left: 10px;
+}
+.dislive {
+    width: auto;
+    height: auto;
+    padding: 0px 15px 10px 15px;
+}
+.dislive ul li {
+    width: auto;
+    height: auto;
+    padding-bottom: 5px;
+}
+.dislive ul li a .tit {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative;
+    font-size: 12px;
+    color: #000;
+    padding-right: 100px;
+}
+.dislive ul li a .txt {
+    width: auto;
+    height: auto;
+    font-size: 12px;
+    color: #999;
+    padding-top: 5px;
+}
+/*six个li*/
+.disnav {
+    width: auto;
+    height: auto;
+    padding: 8px;
+    overflow: hidden;
+}
+.disnav ul li {
+    width: 50%;
+    height: auto;
+    float: left;
+    padding: 7px;
+}
+.disnav ul li a {
+    display: block;
+    width: auto;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    border-radius: 5px;
+}
+.disnav ul li a.red {
+    background: #f9728b;
+}
+.disnav ul li a.bluegreen {
+    background: #98e0ec;
+}
+.disnav ul li a.orange {
+    background: #ff9966;
+}
+.disnav ul li a.green {
+    background: #a9d72c;
+}
+.disnav ul li a.blue {
+    background: #72afed;
+}
+.disnav ul li a.orangered {
+    background: #ff9933;
+}

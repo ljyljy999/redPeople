@@ -1,0 +1,376 @@
+/*内容*/
+.newscon {
+	margin-top: 125px;
+    width: auto;
+    height: auto;
+    background: url(../images/borgrayb.png) repeat-x bottom #fff;
+    background-size: 1px 1px;
+}
+.newscon-title {
+    width: auto;
+    height: auto;
+    padding: 20px 15px 0 15px;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+}
+.newscon-intro {
+    width: auto;
+    height: auto;
+    margin: 15px 15px 0 15px;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 10px 15px 10px 45px;
+    font-size: 12px;
+    color: #666;
+    line-height: 1.6em;
+    background-image: url(../images/icon-intro.png);
+    background-repeat: no-repeat;
+    background-size: 17px 13px;
+    background-position: 15px 15px;
+}
+.newscon-main {
+    width: auto;
+    height: auto;
+    font-size: 13px;
+    color: #999999;
+    line-height: 1.6em;
+}
+.newscon-main .txt {
+    width: auto;
+    height: auto;
+    padding: 15px;
+    text-align: justify;
+}
+.newscon-main .video a {
+    display: block;
+    width: auto;
+    height: auto;
+    position: relative;
+}
+.newscon-main .video a span {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -20px;
+    margin-top: -20px;
+    background: url(../images/video-play.png) no-repeat;
+    background-size: 40px 40px;
+    z-index: 2;
+}
+.newscon-main .img.img1 {
+    padding: 0 15px;
+}
+.fourOpera {
+    width: auto;
+    height: 34px;
+    padding: 5px 0;
+}
+.fourOpera ul li {
+    width: 25%;
+    height: 24px;
+    float: left;
+}
+.fourOpera ul li a {
+    display: block;
+    width: auto;
+    height: 24px;
+    background: url(../images/borgrayr.png) repeat-y right;
+    background-size: 1px 1px;
+    text-align: center;
+    font-size: 0;
+}
+.fourOpera ul li a .item {
+    display: inline-block;
+    width: auto;
+    height: 24px;
+    line-height: 24px;
+    font-size: 10px;
+    color: #999;
+    position: relative;
+    padding-left: 18px;
+    margin: 0;
+}
+.fourOpera ul li a .item span {
+    display: block;
+    width: 12px;
+    height: 12px;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -6px;
+    background-image: url(../images/inopera.png);
+    background-repeat: no-repeat;
+    background-size: 48px 24px;
+}
+.fourOpera ul li a .item span.ico1 {
+    background-position: 0px 0px;
+}
+/*评论*/
+.discuss {
+    width: auto;
+    height: auto;
+    background: #fff;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.discuss-head {
+    width: auto;
+    height: 44px;
+    padding: 0 15px;
+    background: url(../images/borgrayb.png) repeat-x bottom;
+    background-size: 1px 1px;
+}
+.discuss-head .name {
+    width: auto;
+    height: 44px;
+    line-height: 44px;
+    float: left;
+    font-size: 12px;
+    color: #333;
+}
+.discuss-head .more {
+    width: auto;
+    height: 44px;
+    float: right;
+}
+.discuss-head .more a {
+    display: block;
+    width: auto;
+    height: 44px;
+    line-height: 44px;
+    font-size: 12px;
+    color: #999;
+    background: url(../images/inmore.png) no-repeat right center;
+    background-size: 5px 10px;
+    padding-right: 10px;
+}
+.discuss-main .item {
+    width: auto;
+    height: auto;
+    padding-left: 55px;
+    position: relative;
+}
+.discuss-main .item .portrait {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+.discuss-main .item .box {
+    width: auto;
+    height: auto;
+    min-height: 60px;
+    padding: 15px 15px 15px 0;
+    background: url(../images/borgrayb.png) repeat-x bottom;
+    background-size: 1px 1px;
+}
+.discuss-main .item .box .name {
+    width: auto;
+    height: auto;
+    font-size: 10px;
+    color: #333;
+}
+.discuss-main .item .box .name a {
+    color: #333;
+}
+.discuss-main .item .box .cont {
+    width: auto;
+    height: auto;
+    padding-top: 5px;
+    position: relative;
+}
+.discuss-main .item .box .cont .text {
+    width: auto;
+    height: auto;
+    font-size: 12px;
+    color: #333;
+    line-height: 18px;
+    margin-right: 75px;
+}
+.discuss-main .item .box .cont .opera {
+    width: auto;
+    height: 36px;
+    position: absolute;
+    right: 0;
+    top: -5px;
+}
+.discuss-main .item .box .cont .opera .like {
+    width: auto;
+    height: 36px;
+    float: left;
+}
+.discuss-main .item .box .cont .opera .like a {
+    display: block;
+    width: auto;
+    height: 36px;
+    line-height: 36px;
+    position: relative;
+    font-size: 12px;
+    color: #999999;
+    padding-left: 18px;
+}
+.discuss-main .item .box .cont .opera .like a i {
+    display: block;
+    width: 12px;
+    height: 12px;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -6px;
+    background-image: url(../images/inopera.png);
+    background-repeat: no-repeat;
+    background-size: 48px 24px;
+    background-position: -24px 0px;
+}
+.discuss-main .item .box .cont .opera .other {
+    width: auto;
+    height: 36px;
+    float: left;
+    position: relative;
+    margin-left: 5px;
+}
+.discuss-main .item .box .cont .opera .other .icon {
+    width: auto;
+    height: 36px;
+}
+.discuss-main .item .box .cont .opera .other .icon a {
+    display: block;
+    width: auto;
+    height: 36px;
+    background: url(../images/icon-other.png) no-repeat right center;
+    background-size: 3px 12px;
+    padding-left: 10px;
+}
+.discuss-main .item .box .cont .opera .other .btns {
+    width: 44px;
+    height: auto;
+    position: absolute;
+    right: -10px;
+    top: 44px;
+    background: #f0f0f0;
+    border-radius: 3px;
+    display: none;
+}
+.discuss-main .item .box .cont .opera .other .btns i {
+    display: block;
+    width: 8px;
+    height: 8px;
+    background: #f0f0f0;
+    position: absolute;
+    top: -4px;
+    right: 8px;
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+.discuss-main .item .box .cont .opera .other .btns ul {
+    display: block;
+    width: auto;
+    height: auto;
+    position: relative;
+    z-index: 2;
+    padding: 0 5px;
+}
+.discuss-main .item .box .cont .opera .other .btns ul li a.red {
+    color: #ff5500;
+}
+.discuss-main .item .box .note {
+    width: auto;
+    height: auto;
+    padding-top: 5px;
+    font-size: 10px;
+    color: #999;
+}
+.discuss-main .item .box .note a {
+    color: #999;
+    position: relative;
+    margin-left: 6px;
+    padding-left: 8px;
+}
+.discuss-main .item .box .seeall {
+    width: auto;
+    height: auto;
+    padding-top: 10px;
+}
+.discuss-main .item .box .seeall a {
+    display: block;
+    width: auto;
+    height: auto;
+    background: #f9f9f9;
+    border-radius: 5px;
+    font-size: 10px;
+    color: #666666;
+    padding: 0 10px;
+}
+.discuss-main .item .box .seeall a span {
+    display: inline-block;
+    padding: 6px 0;
+    background: url(../images/inmore.png) no-repeat right center;
+    background-size: 5px 10px;
+    padding-right: 10px;
+    line-height: 12px;
+}
+/*评论评论*/
+.discuss-main .item .box .reply {
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    background-image: url(../images/discuss-reply.png);
+    background-repeat: no-repeat;
+    background-size: 12px 11px;
+    background-position: 12px 11px;
+    padding-left: 33px;
+}
+.discuss-main .item .box .reply ul li {
+    width: auto;
+    height: auto;
+    background: url(../images/borgrayb.png) repeat-x bottom;
+    background-size: 1px 1px;
+}
+.discuss-main .item .box .reply ul li .replybox {
+    width: auto;
+    height: auto;
+    padding: 10px 0;
+}
+.discuss-main .item .box .reply ul li .replybox .replyname {
+    width: auto;
+    height: auto;
+    line-height: 12px;
+    position: relative;
+    font-size: 10px;
+    color: #333333;
+}
+.discuss-main .item .box .reply ul li .replybox .replyname a {
+    color: #3d6fce;
+}
+.discuss-main .item .box .reply ul li .replybox .replyname .time {
+    display: block;
+    width: auto;
+    height: 12px;
+    line-height: 12px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -6px;
+    color: #999;
+}
+.discuss-main .item .box .reply ul li .replybox .replytext {
+    width: auto;
+    height: auto;
+    font-size: 10px;
+    color: #333333;
+    padding-top: 5px;
+}
