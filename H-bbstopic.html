@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <link rel="stylesheet" href="css/mui.min.css" />
+    <link rel="stylesheet" href="css/mui.css" />
+    <link rel="stylesheet" href="css/H-bas-common.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/H-bbscon.css">
+    <link rel="stylesheet" href="public/indexHAndF.css" />
+    <!--//mui.min.css和app.css是Hbuilder提供的两个css文件，每个html文件中都需要包含进来-->
+    <style>
+        html,
+        body {
+            background-color: #efeff4;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="mui-scroll-wrapper mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+        <div class="mui-scroll">
+            <a class="mui-control-item mui-active items">
+                学堂教员
+            </a>
+            <a class="mui-control-item items">
+                网络红人
+            </a>
+            <a class="mui-control-item items">
+                网络商业
+            </a>
+            <a class="mui-control-item items">
+                时尚造型
+            </a>
+            <a class="mui-control-item items">
+                情感大师
+            </a>
+            <a class="mui-control-item items">
+                星座运势
+            </a>
+            <a class="mui-control-item items">
+                留言板
+            </a>
+        </div>
+    </div>
+    <div class="search">
+        <div class="mui-icon mui-icon-search"></div>
+        <div class="mui-icon mui-icon-bars"></div>
+    </div>
+</header>
+<!--<script src='public/indexSwiper.js'></script>-->
+<div id="slider" class="mui-slider" >
+    <div class="mui-slider-group mui-slider-loop">
+        <!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+        <div class="mui-slider-item mui-slider-item-duplicate">
+            <a href="#">
+                <img src="images/banner.jpg">
+            </a>
+        </div>
+        <!-- 第一张 -->
+        <div class="mui-slider-item">
+            <a href="#">
+                <img src="images/banner.jpg">
+            </a>
+        </div>
+        <!-- 第二张 -->
+        <div class="mui-slider-item">
+            <a href="#">
+                <img src="images/banner.jpg">
+            </a>
+        </div>
+        <!-- 第三张 -->
+        <div class="mui-slider-item">
+            <a href="#">
+                <img src="images/banner.jpg">
+            </a>
+        </div>
+        <!-- 第四张 -->
+        <div class="mui-slider-item">
+            <a href="#">
+                <img src="images/banner.jpg">
+            </a>
+        </div>
+        <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+        <div class="mui-slider-item mui-slider-item-duplicate">
+            <a href="#">
+                <img src="images/banner.jpg">
+            </a>
+        </div>
+    </div>
+</div>
+<div class="margin">
+    <div class="bbscon">
+        <div class="bbscon-image">
+            <a href="#">
+                <div class="bbscon-img">
+                    <span></span>
+                    <img src="images/bbslist-portrait1.jpg" alt="">
+                </div>
+                <div class="bbscon-text">
+                    <div class="con">
+                        <div class="name">陈茂源</div>
+                        <div class="note">红人学堂认证教员</div>
+                    </div>
+                </div>
+            </a>
+            <div class="txt">已回答20个问题</div>
+        </div>
+        <div class="mation">基本介绍：剑风倚荡激千尺,白云日上影中仙。便是这，白衣段云！便是这，白衣段云！“草民段云，不日定去府上做客</div>
+    </div>
+    <div class="question bbscon-question">
+        <ul>
+            <li class="eee">
+                <a href="#">最热问题</a>
+            </li>
+            <li>
+                <a href="#">最新问题</a>
+            </li>
+            <li>
+                <a href="#">向TA提问</a>
+            </li>
+        </ul>
+    </div>
+    <div class="bbscon-main">
+        <div class="bbscon-list">
+
+            <div class="item">
+                <div class="problem">
+                    <div class="head">
+                        <div class="user">
+                            <div class="portrait"><a href="person.html"><img src="images/bbslist-portrait3.jpg"></a></div>
+                            <div class="name">赵四的提问</div>
+                        </div>
+                    </div>
+                    <div class="text">社交就该做社交的事，钱包就该做钱包的事！支付宝能不能简化成只有支付功能？</div>
+                </div>
+                <div class="answer">
+                    <div class="head">
+                        <div class="user">
+                            <div class="portrait"><a href="person.html"><img src="images/bbslist-portrait1.jpg"></a></div>
+                            <div class="name">陈茂源的回答</div>
+                        </div>
+                        <div class="num">看过36</div>
+                    </div>
+                    <div class="cent">
+                        <div class="listen"><a href="javascript:void(0)" style="width: 80%;" class="opmusic"><span class="state">点击播放</span><span class="long">22s</span></a></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src='public/indexFoot.js'></script>
+
+<script src='js/jquery-2.1.1.min.js'></script>
+<script src="js/mui.min.js"></script>
+<scrip src ='js/common.js'></scrip>
+<script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+<script>
+    //获得slider插件对象
+    var gallery = mui('.mui-slider');
+    gallery.slider({
+        interval:5000//自动轮播周期，若为0则不自动播放，默认为0；
+    });
+    $.ajax({
+        url:'http://web.95ym.cn/api/issue/getlist.html',
+        type:'GET',
+        dataType:'json',
+        success:function (data) {
+            console.log(data);
+        }
+    });
+    $(".bbscon-ds").on('click',function() {
+        $(".other").show();
+    })
+</script>
+</body>
+</html>

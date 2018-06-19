@@ -1,0 +1,339 @@
+.bbscon{
+	background-color: #fff;
+	margin-bottom: 10px;
+}
+.bbscon-image{
+	width:auto;
+	height:auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 15px;
+	/*position: relative;*/
+}
+.bbscon-image a{
+	display: flex;
+	flex-direction: row;
+}
+.bbscon-image a .bbscon-img{
+	width: 46px;
+	height:46px;
+	position: relative;
+}
+.bbscon-image a .bbscon-img span{
+	background-image: url("../images/vipwhite.png");
+	display: block;
+	width:16px;
+	height:16px;
+	border: 1px solid #fff;
+	position: absolute;
+	bottom: 0;
+	right:0;
+	background-size: 12px 12px;
+	background-position: center;
+	background-color: #FF3333;
+	border-radius:50% ;
+}
+.bbscon-image a .bbscon-img img{
+	border-radius: 50%;
+}
+.bbscon-image a .bbscon-text .con{
+	margin:5px 10px;
+}
+.bbscon-image a .bbscon-text .con .note{
+	font-size: 12px;
+	color: #999;
+}
+.bbscon-image .txt{
+	font-size: 12px;
+	color: #999;
+	margin-top:27px;
+}
+.bbscon .mation{
+	padding: 0 15px 15px 15px;
+	font-size: 13px;
+	color: #999;
+	border-bottom:1px solid #eee;
+}
+.bbscon .btn{
+	padding: 10px;
+	text-align: center;
+}
+.bbscon .btn a{
+	height: 26px;
+	padding:2px 35px;
+	border-radius:15px;
+	font-size:13px;
+	color: #fff;
+	background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391);
+	box-shadow: 0px 2px 2px rgba(255,150,149,0.5);
+}
+/*nav部分开始*/
+.bbscon-question ul li{
+	width:33.33%;
+
+}
+/*nav结束部分*/
+/*提问部分开始*/
+.bbscon-aa{
+	position: relative;
+}
+.bbscon-bb{
+	padding:10px 15px 0 15px;
+}
+.bbscon-aa{
+
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+}
+.bbscon-aa .bbscon-as{
+	display: flex;
+	flex-direction: row;
+}
+.bbscon-aa .bbscon-as a{
+	width: 36px;
+	height: 36px;
+	display: block;
+}
+.bbscon-aa .bbscon-as a img{
+	border-radius: 50%;
+}
+.bbscon-aa .bbscon-as .name{
+	height: 36px;
+	line-height: 36px;
+	margin-left: 15px;;
+	font-size: 14px;
+	color: #333;
+}
+.bbscon-aa .bbscon-bs{
+	width: auto;
+	height: 36px;
+	position: absolute;
+	right: 0px;
+}
+.bbscon-aa .bbscon-bs .bbscon-cs{
+	width: auto;
+	height: 36px;
+	float: left;
+}
+.bbscon-aa .bbscon-bs .bbscon-cs a {
+	display: block;
+	width: auto;
+	height: 36px;
+	line-height: 36px;
+	position: relative;
+	font-size: 12px;
+	color: #999999;
+	padding-left: 18px;
+}
+.bbscon-aa .bbscon-bs .bbscon-cs a i{
+	display: block;
+	width: 12px;
+	height: 12px;
+	font-size: 0;
+	line-height: 0;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -6px;
+	background-image: url(../images/inopera.png);
+	background-repeat: no-repeat;
+	background-size: 48px 24px;
+	background-position: -24px 0px;
+}
+.bbscon-aa .bbscon-bs .bbscon-ds{
+	width: auto;
+	height: 36px;
+	float: left;
+	position: relative;
+	margin-left: 5px;
+}
+.bbscon-aa .bbscon-bs .bbscon-ds .icon{
+	width: auto;
+	height: 36px;
+}
+.bbscon-aa .bbscon-bs .bbscon-ds .icon a{
+	display: block;
+	width: auto;
+	height: 36px;
+	background: url(../images/icon-other.png) no-repeat right center;
+	background-size: 3px 12px;
+	padding-left: 10px;
+}
+.bbscon-aa .bbscon-bs .bbscon-ds .other{
+	width: 44px;
+	height: auto;
+	position: absolute;
+	right: -10px;
+	top: 44px;
+	background: #f0f0f0;
+	border-radius: 3px;
+	display: none;
+}
+/*.bbscon-aa .bbscon-bs .bbscon-ds:hover .other{*/
+	/*display: block;*/
+/*}*/
+.bbscon-aa .bbscon-bs .bbscon-ds .other i{
+	display: block;
+	width: 8px;
+	height: 8px;
+	background: #f0f0f0;
+	position: absolute;
+	top: -4px;
+	right: 8px;
+	transform: rotate(45deg);
+}
+.bbscon-aa .bbscon-bs .bbscon-ds .other .select{
+	display: block;
+	width: auto;
+	height: auto;
+	position: relative;
+	z-index: 2;
+	padding: 0 10px;
+}
+.bbscon-aa .bbscon-bs .bbscon-ds .other .select li{
+	width: auto;
+	height: auto;
+	background: url(../images/borgrayb.png) repeat-x bottom;
+	background-size: 1px 1px;
+}
+.bbscon-aa .bbscon-bs .bbscon-ds .other .select li a{
+	display: block;
+	width: auto;
+	height: auto;
+	font-size: 12px;
+	color: #666;
+	line-height: 12px;
+	padding: 6px 0;
+	text-align: center;
+}
+.bbscon-aa .bbscon-bs .bbscon-ds .other .select .lis1 a{
+	color: red;
+}
+.lists{
+	padding:5px 0;
+	border-bottom: 1px solid #eee;
+}
+.lists .text{
+	width: auto;
+	height: auto;
+	font-size: 13px;
+	color: #999999;
+	line-height: 1.6em;
+	padding-top: 5px;
+}
+.lists .note{
+	width: auto;
+	height: auto;
+	text-align: right;
+	font-size: 0;
+	padding-top: 5px;
+}
+.lists .note a{
+	display: inline-block;
+	width: auto;
+	height: 14px;
+	line-height: 14px;
+	font-size: 12px;
+	color: #85a4df;
+	background: url(../images/icon-reply.png) no-repeat left center;
+	background-size: 12px 12px;
+	padding-left: 20px;
+}
+.answer{
+	width: auto;
+	height: auto;
+	padding: 15px;
+}
+.answer .head{
+	width: auto;
+	height: 36px;
+	position: relative;
+}
+.answer .user{
+	width: auto;
+	height: 36px;
+	position: relative;
+	padding-left: 46px;
+}
+.answer .user .portrait{
+	width: 36px;
+	height: 36px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.answer .user .portrait a{
+	display: block;
+	width: 36px;
+	height: 36px;
+}
+.answer .user .portrait a img{
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+}
+.answer .user .name{
+	width: auto;
+	height: 36px;
+	line-height: 36px;
+	font-size: 14px;
+	color: #333;
+}
+.answer .cent{
+	width: auto;
+	height: auto;
+	min-height: 36px;
+	margin-top: 15px;
+	position: relative;
+}
+.answer .cent .listen{
+	width: auto;
+	height: 36px;
+	position: relative;
+	margin-right: 60px;
+}
+.answer .cent .listen a{
+	display: block;
+	width: auto;
+	height: 36px;
+	border-radius: 20px;
+	position: relative;
+	padding: 0 10px;
+	background: linear-gradient(to right, #44ca77, #2ab45e);
+}
+.answer .cent .listen a span.price{
+	float: left;
+	background: url(../images/music.png) no-repeat left center;
+	background-size: 12px 12px;
+	padding-left: 15px;
+}
+.answer .cent .listen a span {
+	display: block;
+	width: auto;
+	height: 36px;
+	line-height: 36px;
+	font-size: 14px;
+	color: #fff;
+}
+.answer .cent .listen a span.long{
+	float: right;
+}
+.answer .cent .num{
+	width: auto;
+	height: 36px;
+	line-height: 36px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-size: 14px;
+	color: #999999;
+}
+.aaa{
+	background-color: #fff;
+	margin-bottom: 10px;
+}
+/*提问部分结束*/
+
+
+

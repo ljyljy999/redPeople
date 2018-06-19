@@ -1,0 +1,501 @@
+ul,li{
+	list-style:none;
+}
+header{
+	background-color: #fff;
+	position: fixed;
+	z-index: 2;
+}
+.mui-slider-group{
+	margin-top: 38px;
+}
+.mui-scroll-wrapper{
+	position: relative;
+	background-color: #fff;
+}
+.mui-segmented-control.mui-segmented-control-inverted{
+	width: 75%;
+}
+.mui-segmented-control.mui-scroll-wrapper .mui-control-item{
+	font-size:14px;
+	position: relative;
+	color:#333;
+	padding: 0 11px 0 10px;
+	
+}
+.mui-segmented-control.mui-scroll-wrapper .mui-scroll{
+	margin: 0 80px 0 5px;
+}
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active{
+	color:#333;
+	border: 0;
+}
+.mui-segmented-control.mui-scroll-wrapper .mui-control-item:before{
+	content: '';
+	border-right: 1px solid #ddd;
+	position: absolute;
+	width: 1px;
+	height: 10px;
+	right: 0;
+	top: 50%;
+	margin-top: -5px;
+}
+.search{
+	height: 37px;
+	line-height:37px;
+	background-color: #fff;
+	position: absolute;
+	right: 0px;
+	top: 0;
+	z-index: 2;
+	padding:0 20px 0 10px;
+}
+.mui-slider-indicator .mui-icon{
+	border: 0;
+	width: auto;
+}
+.mui-icon{
+	font-size:21px;
+	color:#cdcdcd;
+}
+.question{
+	width:auto;
+	/*height: 40px;*/
+	/*background-color: #fff;*/
+	border-bottom:1px solid #dadada;
+	-webkit-background-size:1px 1px;
+	background-size:1px 1px;
+	/*margin-bottom:50px;*/
+}
+.question ul{
+	overflow: hidden;
+	border-bottom:1px solid #eee;
+	background-color: #fff;
+
+}
+.question ul li{
+	float: left;
+	line-height:40px;
+	width: 25%;
+	text-align: center;
+	font-size:14px;
+	color: #666;
+}
+.question ul li.eee{
+	background-color: #eeeeee;
+	color: #333;
+}
+.question ul li a span.icon-que{
+	display: inline-block;
+	width: auto;
+	height: 40px;
+	line-height: 40px;
+	background: url(../images/tabfilter.png) no-repeat right center;
+	background-size: 15px 15px;
+	padding-right: 25px;
+}
+.margin{
+	padding:0 0 40px 0;
+}
+.bbsask {
+	width: auto;
+	height: auto;
+	background: #fff;
+	padding: 15px;
+}
+.bbsask-switch {
+	width: auto;
+	height: 30px;
+	margin-bottom: 15px;
+}
+.bbsask-switch .switchbox {
+	float: left;
+	margin-right: 10px;
+}
+.switchbox {
+	width: 52px;
+	height: 30px;
+}
+.switchbox a.on {
+	background: #74d86b;
+}
+.switchbox a {
+	display: block;
+	width: auto;
+	height: 30px;
+	background: #ccc;
+	border-radius: 15px;
+	position: relative;
+	transition: ease-in 0.08s , ease-out 0.16s;
+}
+.switchbox a.on span {
+	left: 24px;
+}
+.switchbox a span {
+	display: block;
+	width: 26px;
+	height: 26px;
+	background: #fff;
+	border-radius: 50%;
+	position: absolute;
+	left: 2px;
+	top: 2px;
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+	transition: ease-in 0.08s , ease-out 0.16s;
+}
+.bbsask-switch .note {
+	width: auto;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	font-size: 14px;
+	color: #333;
+}
+.bbsask-form {
+	width: auto;
+	height: auto;
+}
+.bbsask-form .textarea {
+	width: auto;
+	height: auto;
+	position: relative;
+}
+.bbsask-form .textarea textarea {
+	width: 100%;
+	height: 150px;
+	background: #f9f9f9;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	font-size: 14px;
+	color: #666;
+	padding: 10px;
+}
+.bbsask-form .textarea .of {
+	display: block;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	font-size: 12px;
+	color: #999;
+}
+.bbsask-form .addfile {
+	width: auto;
+	height: auto;
+	padding-top: 15px;
+}
+.bbsask-form .addfile a {
+	display: block;
+	width: 56px;
+	height: 56px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	background: url(../images/icon-add.png) no-repeat center #fff;
+	background-size: 22px 22px;
+}
+.bbsask-form .anonymous {
+	width: auto;
+	height: auto;
+	padding-top: 10px;
+	overflow: hidden;
+}
+.bbsask-form .anonymous label {
+	display: block;
+	width: auto;
+	height: 24px;
+	line-height: 24px;
+	float: left;
+	font-size: 12px;
+	color: #999;
+}
+.bbsask-form .anonymous label input {
+	display: block;
+	width: 14px;
+	height: 14px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	float: left;
+	margin: 5px 5px 0 0;
+	background: #fff;
+}
+.bbsask-form .btn {
+	width: auto;
+	height: auto;
+	padding-top: 10px;
+}
+.bbsask-form .btn input ,.bbsask-state .back a{
+	display: block;
+	width: 150px;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	border: 0px;
+	font-size: 14px;
+	color: #fff;
+	margin: 0 auto;
+	border-radius: 5px;
+	background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391);
+	box-shadow: 0px 2px 2px rgba(255,150,149,0.5);
+}
+.bbsask-intro {
+	width: auto;
+	height: auto;
+	background: url(../images/borgrayb.png) repeat-x bottom;
+	background-size: 1px 1px;
+	padding-bottom: 15px;
+}
+.bbsask-intro .head {
+	width: auto;
+	height: 36px;
+	position: relative;
+}
+.bbsask-intro .head .user {
+	width: auto;
+	height: 36px;
+	position: relative;
+	padding-left: 46px;
+}
+.bbsask-intro .head .user .portrait {
+	width: 36px;
+	height: 36px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.bbsask-intro .head .user .portrait a {
+	display: block;
+	width: 36px;
+	height: 36px;
+}
+.bbsask-intro .head .user .portrait a img {
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+}
+.bbsask-intro .head .user .name {
+	width: auto;
+	height: 36px;
+	line-height: 36px;
+	font-size: 14px;
+	color: #333;
+}
+.bbsask-intro .head .price {
+	width: auto;
+	height: 36px;
+	line-height: 36px;
+	font-size: 14px;
+	color: #999;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.bbsask-intro .text {
+	width: auto;
+	height: auto;
+	padding-top: 10px;
+	font-size: 12px;
+	color: #999999;
+}
+.bbsask-intro .note {
+	width: auto;
+	height: auto;
+	padding-top: 5px;
+	font-size: 12px;
+	color: #db7679;
+}
+.bbsask-state {
+	width: auto;
+	height: auto;
+	padding: 25px 0;
+}
+.bbsask-state .icon {
+	width: 50px;
+	height: 50px;
+	font-size: 0;
+	margin: 0 auto;
+}
+.bbsask-state .icon img {
+	width: 50px;
+	height: 50px;
+}
+.bbsask-state .text {
+	width: auto;
+	height: auto;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 12px;
+	color: #fa655b;
+	font-weight: bold;
+}
+.bbsask-state .back {
+	width: auto;
+	height: auto;
+	font-size: 0;
+	padding-top: 20px;
+}
+/*h-bbstopic.html start*/
+.bbscon-main {
+	width: auto;
+	height: auto;
+	padding-top: 10px;
+}
+.bbscon-list {
+	width: auto;
+	height: auto;
+}
+.bbscon-list {
+	width: auto;
+	height: auto;
+}
+.bbscon-list .item .problem {
+	width: auto;
+	height: auto;
+	background: url(../images/borgrayb.png) repeat-x bottom;
+	background-size: 1px 1px;
+	padding: 15px;
+}
+.bbscon-list .item .problem .head {
+	width: auto;
+	height: 36px;
+	position: relative;
+}
+.bbscon-list .item .problem .head .user {
+	width: auto;
+	height: 36px;
+	position: relative;
+	padding-left: 46px;
+}
+.bbscon-list .item .problem .head .user .portrait {
+	width: 36px;
+	height: 36px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.bbscon-list .item .problem .head .user .portrait a {
+	display: block;
+	width: 36px;
+	height: 36px;
+}
+.bbscon-list .item .problem .head .user .portrait a img {
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+}
+.bbscon-list .item .problem .head .user .name {
+	width: auto;
+	height: 36px;
+	line-height: 36px;
+	font-size: 14px;
+	color: #333;
+}
+.bbscon-list .item .problem .text {
+	width: auto;
+	height: auto;
+	padding-top: 10px;
+	font-size: 13px;
+	color: #999999;
+	line-height: 1.6em;
+}
+.bbscon-list .item .answer {
+	width: auto;
+	height: auto;
+	padding: 15px 0;
+}
+.bbscon-list .item .answer .head {
+	width: auto;
+	height: 36px;
+	position: relative;
+}
+.bbscon-list .item .answer .head .user {
+	width: auto;
+	height: 36px;
+	position: relative;
+	padding-left: 46px;
+}
+.bbscon-list .item .answer .head .user .portrait {
+	width: 36px;
+	height: 36px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.bbscon-list .item .answer .head .user .portrait a {
+	display: block;
+	width: 36px;
+	height: 36px;
+}
+.bbscon-list .item .answer .head .user .portrait a img {
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+}
+.bbscon-list .item .answer .head .user .name {
+	width: auto;
+	height: 36px;
+	line-height: 36px;
+	font-size: 14px;
+	color: #333;
+}
+.bbscon-list .item .answer .head .num {
+	width: auto;
+	height: 36px;
+	line-height: 36px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-size: 14px;
+	color: #999999;
+}
+.bbscon-list .item .answer .cent {
+	width: auto;
+	height: auto;
+	min-height: 36px;
+	margin-top: 15px;
+	position: relative;
+}
+.bbscon-list .item .answer .cent .listen {
+	width: auto;
+	height: 36px;
+	position: relative;
+	margin-right: 60px;
+}
+.bbscon-list .item .answer .cent .listen a {
+	display: block;
+	width: auto;
+	height: 36px;
+	border-radius: 20px;
+	position: relative;
+	padding: 0 10px;
+	background: -webkit-linear-gradient(left, #44ca77, #2ab45e);
+	background: -o-linear-gradient(right, #44ca77, #2ab45e);
+	background: -moz-linear-gradient(right, #44ca77, #2ab45e);
+	background: linear-gradient(to right, #44ca77, #2ab45e);
+}
+.bbscon-list .item .answer .cent .listen a span.state {
+	float: left;
+	background-image: url(../images/music.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 12px 12px;
+	padding-left: 15px;
+}
+.bbscon-list .item .answer .cent .listen a span {
+	display: block;
+	width: auto;
+	height: 36px;
+	line-height: 36px;
+	font-size: 14px;
+	color: #fff;
+}
+.bbscon-list .item .answer .cent .listen a span.long {
+	float: right;
+}
+.bbscon-list .item .answer .cent .listen a span {
+	display: block;
+	width: auto;
+	height: 36px;
+	line-height: 36px;
+	font-size: 14px;
+	color: #fff;
+}
+/*h-bbstopic.html end*/

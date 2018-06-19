@@ -1,0 +1,153 @@
+/*回答问题*/
+.answer {
+	width: auto;
+	height: auto;
+}
+.answer ul li {
+	width: auto;
+	height: auto;
+	padding-bottom: 3px;
+}
+.answer ul li:last-child {
+	padding-bottom: 0;
+}
+.answer ul li a {
+	display: block;
+	width: auto;
+	height: 76px;
+	background: #fff;
+	position: relative;
+}
+.answer ul li a .numbox {
+	width: 40px;
+	height: 16px;
+	position: absolute;
+	left: 0; top: 50%;
+	margin-top: -8px;
+}
+.answer ul li a .kemp {
+	width: 20px;
+	height: 16px;
+	margin: 0 auto;
+	font-size: 0;
+}
+.answer ul li a .kemp img {
+	width: 20px;
+	height: 16px;
+}
+.answer ul li a .num {
+	width: auto;
+	height: 16px;
+	line-height: 16px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+	color: #f24d56;
+}
+.answer ul li a .portrait {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	left: 40px;
+	top: 50%;
+	margin-top: -20px;
+}
+.answer ul li a .portrait img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.answer ul li a .portrait span {
+	display: block;
+	width: 16px;
+	height: 16px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	background-image: url("../images/vipwhite.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 10px 10px;
+	background-color: #ff3333;
+}
+.answer ul li a .con {
+	width: auto;
+	height: 76px;
+	padding: 0 96px 0 98px;
+}
+.answer ul li a .con .tr {
+	display: table;
+	width: 100%;
+	height: 76px;
+}
+.answer ul li a .con .td {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: left;
+}
+.answer ul li a .con .name {
+	width: auto;
+	height: auto;
+	font-size: 14px;
+	color: #333;
+}
+.answer ul li a .con .name span {
+	color: #999;
+	font-size: 10px;
+	margin-left: 10px;
+}
+.answer ul li a .con .level {
+	width: auto;
+	height: auto;
+	font-size: 10px;
+	color: #d55c5f;
+	padding-top: 5px;
+}
+.answer ul li a .opera {
+	width: 66px;
+	height: 42px;
+	position: absolute;
+	right: 15px;
+	top: 50%;
+	margin-top: -21px;
+}
+.answer ul li a .opera .btn {
+	width: auto;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+	background: #ea9ca1;
+	border-radius: 3px;
+	margin-bottom: 2px;
+}
+.answer ul li a .opera .price {
+	width: auto;
+	height: 16px;
+	text-align: center;
+	line-height: 16px;
+	background-color: #e2777d;
+	background-image: url("../images/priceline.png");
+	background-size: 3px 3px;
+	font-size: 10px;
+	color: #fff;
+	border-radius: 3px;
+}
+.answer ul li:nth-child(even) a .numbox .num {
+	color: #f5960f;
+}
+.answer ul li:nth-child(even) a .portrait span {
+	background-color: #ffcc00;
+}
+.answer ul li:nth-child(even) a .con .tr .td .level {
+	color: #f5960f;
+}
+.answer ul li:nth-child(even) a .opera .btn {
+	background: #f9c99f;
+}
+.answer ul li:nth-child(even) a .opera .price {
+	background-color: #f9c99f;
+}
