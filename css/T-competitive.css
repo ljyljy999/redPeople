@@ -1,0 +1,236 @@
+.advertising .on{
+	display: none;
+	position: absolute;
+	top:0;
+	left:0;
+}
+.advertising.on .on{
+	display: block;
+}
+.mui-segmented-control.mui-scroll-wrapper{
+	margin:0;
+}
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item{
+	padding: 0;
+	width:33.3333% !important;
+}
+.mui-segmented-control.mui-scroll-wrapper .mui-scroll{
+	width:100%;
+}
+.mui-slider .mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active{
+	background-color: #eee;
+}
+.mui-segmented-control .mui-control-item{
+	line-height: 40px;
+}
+.mui-segmented-control.mui-scroll-wrapper,.mui-segmented-control.mui-scroll-wrapper .mui-scroll{
+	height: 40px;
+}
+.itemlmobile_title{
+	width:auto;
+	height:auto;
+	text-align: center;
+}
+.box{
+	display: inline-block;
+    width: auto;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 12px;
+    border-radius: 15px;
+    background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391);
+    box-shadow: 0px 2px 2px rgba(255,150,149,0.5);
+}
+.box .lb{
+	display: inline-block;
+    width: auto;
+    height: 26px;
+    padding-left: 20px;
+    background: url(../images/finecoursecon-tit.png) no-repeat left center;
+    background-size: 11px 11px;
+}
+.box .rb{
+	display: inline-block;
+    width: auto;
+    height: 26px;
+    padding-right: 20px;
+    background: url(../images/finecoursecon-tit.png) no-repeat right center;
+    background-size: 11px 11px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+}
+.itemlmobile-tit{
+	width: auto;
+    height: auto;
+    font-size: 14px;
+    color: #999999;
+    line-height: 22.4px;
+    padding: 25px 35px 0 35px;
+    text-indent: 28px;
+}
+.itemlmobile-tit{
+	width: auto;
+	height: auto;
+	font-size: 14px;
+	color: #999999;
+	line-height: 22.4px;
+	padding: 25px 35px 0 35px;
+	text-indent: 28px;
+}
+.finecoursecon-give{
+	width: auto;
+	height: auto;
+	font-size: 14px;
+	color: #999999;
+	line-height: 22.4px;
+	padding: 25px 35px 0 35px;
+	text-indent: 28px;
+	text-align: center;
+}
+.finecoursecon-img{
+	width: auto;
+	height: auto;
+	padding: 25px 15px 0 15px;
+	line-height: normal;
+}
+.finecoursecon-img img{
+	border-radius: 5px;
+}
+
+/*作者简介*/
+.about-the-author{
+	width: auto;
+	height: auto;
+	padding: 15px 15px 0 15px;
+	margin:0;
+}
+.about-the-author li {
+	padding-top:10px;
+}
+.mui-card-header.mui-card-media{	
+	width: auto;
+    height: auto;
+    background: #fafafa;
+    border: 1px dashed #ddd;
+    border-radius: 5px;
+    padding: 15px;
+}
+.about-the-author-title{
+	padding-top: 15px;
+	font-size: 14px;
+	color:#999;
+	line-height: 22.4px;
+}
+.mui-card-sevves{
+	height: 60px;
+	position:relative;
+	padding-left: 70px;
+	width:auto;
+}
+.mui-card-media-img{
+	width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 3px 2px 3px #dddddd;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+.mui-card-header.mui-card-media .mui-media-body{
+	margin: 0;
+	 display: table;
+   	width: 100%;
+    min-height: 60px;
+}
+.mui-media-body-txt{
+   display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+}
+.mui-media-body-title{
+	padding-top: 8px;
+}
+.mui-media-body-title span{
+	display: inline-block;
+    width: auto;
+    height: 16px;
+    line-height: 16px;
+    padding: 0 10px;
+    border-radius: 10px;
+    font-size: 10px;
+    color: #fff;
+    background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391);
+}
+
+/*适宜人群*/
+.finecoursecon-for{
+	padding: 20px 15px 0 15px;
+}
+.finecoursecon-for ul li{
+	font-size: 14px;
+    color: #999999;
+    line-height: 1.6em;
+    padding-left: 20px;
+    background: url(../images/finecoursecon-for.png) no-repeat left center;
+    background-size: 14px 14px;
+}
+
+/*订阅须知*/
+.about-the-author-subscription li{
+	padding: 5px 0;
+}
+.about-the-author-subscription li .txt-num{
+	width: 32px;
+    height: 32px;
+    border: 1px dotted #e30a20;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding: 1px;
+}
+.about-the-author-subscription li .txt-num span{
+    display: block;
+	width: 28px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 50%;
+    background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391);
+}
+
+
+/*主讲人*/
+
+
+/*最新课程*/
+.newest-txt{
+	padding:15px;
+	font-size:14px;
+	color:#999;
+	line-height: 22.4px;
+	text-indent: 28px;
+	background: #fff;
+}
+.newest_curriculum ul{
+	background-color:#efeff4;
+}
+.newest_curriculum ul li{
+	margin-top: 10px;
+	background-color:#fff;
+	padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
