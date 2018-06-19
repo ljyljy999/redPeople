@@ -337,6 +337,7 @@ header{
 	width: auto;
 	height: auto;
 	padding-top: 10px;
+	background-color: #fff;
 }
 .bbscon-list {
 	width: auto;
@@ -399,7 +400,7 @@ header{
 .bbscon-list .item .answer {
 	width: auto;
 	height: auto;
-	padding: 15px 0;
+	/*padding: 15px 0;*/
 }
 .bbscon-list .item .answer .head {
 	width: auto;
@@ -497,5 +498,12 @@ header{
 	line-height: 36px;
 	font-size: 14px;
 	color: #fff;
+}
+.bbscon-list .item .answer .cent .text {
+	width: auto;
+	height: auto;
+	font-size: 13px;
+	color: #999999;
+	line-height: 1.6em;
 }
 /*h-bbstopic.html end*/
