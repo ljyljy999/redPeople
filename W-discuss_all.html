@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link href="css/mui.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+    <script src="js/mui.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <style>
+        .header {
+            width: 100%;
+            height: 44px;
+            background: #fff;
+            position: fixed;
+            left: 0;
+            top: 0;
+            z-index: 999;
+        }
+        .headBack {
+            width: 44px;
+            height: 44px;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        .headTitle {
+            width: auto;
+            height: 44px;
+            line-height: 44px;
+            text-align: center;
+            font-size: 14px;
+            color: #333;
+            background: url(images/borgrayb.png) repeat-x bottom;
+            background-size: 1px 1px;
+        }
+        .headBack a {
+            display: block;
+            width: auto;
+            height: 44px;
+            background: url(images/icon-back.png) no-repeat center;
+            background-size: 10px 15px;
+        }
+        .wrapper {
+            width: auto;
+            height: auto;
+            padding: 44px 0 50px 0;
+        }
+        .discuss-main {
+            width: auto;
+            height: auto;
+            background: #fff;
+        }
+        .discuss-main .item {
+            width: auto;
+            height: auto;
+            padding-left: 55px;
+            position: relative;
+        }
+        .discuss-main .item .portrait {
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            left: 15px;
+            top: 15px;
+        }
+        .discuss-main .item .box {
+            width: auto;
+            height: auto;
+            min-height: 60px;
+            padding: 15px 15px 15px 0;
+            background: url(images/borgrayb.png) repeat-x bottom;
+            background-size: 1px 1px;
+        }
+        .discuss-main .item .portrait img {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+        }
+        .discuss-main .item .box .name {
+            width: auto;
+            height: auto;
+            font-size: 10px;
+            color: #333;
+        }
+        .discuss-main .item .box .cont {
+            width: auto;
+            height: auto;
+            padding-top: 5px;
+            position: relative;
+        }
+        .discuss-main .item .box .note {
+            width: auto;
+            height: auto;
+            padding-top: 5px;
+            font-size: 10px;
+            color: #999;
+        }
+        .discuss-main .item .box .reply {
+            width: auto;
+            height: auto;
+            margin-top: 10px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            background-image: url(images/discuss-reply.png);
+            background-repeat: no-repeat;
+            background-size: 12px 11px;
+            background-position: 12px 11px;
+            padding-left: 33px;
+        }
+        .discuss-main .item .box .name a {
+            color: #333;
+        }
+        .discuss-main .item .box .cont .text {
+            width: auto;
+            height: auto;
+            font-size: 12px;
+            color: #333;
+            line-height: 18px;
+            margin-right: 75px;
+        }
+        .discuss-main .item .box .cont .opera {
+            width: auto;
+            height: 36px;
+            position: absolute;
+            right: 0;
+            top: -5px;
+        }
+        .discuss-main .item .box .cont .opera .like {
+            width: auto;
+            height: 36px;
+            float: left;
+        }
+        .discuss-main .item .box .cont .opera .other {
+            width: auto;
+            height: 36px;
+            float: left;
+            position: relative;
+            margin-left: 5px;
+        }
+        .discuss-main .item .box .cont .opera .like a {
+            display: block;
+            width: auto;
+            height: 36px;
+            line-height: 36px;
+            position: relative;
+            font-size: 12px;
+            color: #999999;
+            padding-left: 18px;
+        }
+        .discuss-main .item .box .cont .opera .like a i {
+            display: block;
+            width: 12px;
+            height: 12px;
+            font-size: 0;
+            line-height: 0;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            margin-top: -6px;
+            background-image: url(images/inopera.png);
+            background-repeat: no-repeat;
+            background-size: 48px 24px;
+            background-position: -24px 0px;
+        }
+        .discuss-main .item .box .cont .opera .other .icon {
+            width: auto;
+            height: 36px;
+        }
+        .discuss-main .item .box .cont .opera .other .btns {
+            width: 44px;
+            height: auto;
+            position: absolute;
+            right: -10px;
+            top: 44px;
+            background: #f0f0f0;
+            border-radius: 3px;
+            display: none;
+        }
+        .discuss-main .item .box .cont .opera .other .icon a {
+            display: block;
+            width: auto;
+            height: 36px;
+            background: url(images/icon-other.png) no-repeat right center;
+            background-size: 3px 12px;
+            padding-left: 10px;
+        }
+        .discuss-main .item .box .cont .opera .other .btns ul {
+            display: block;
+            width: auto;
+            height: auto;
+            position: relative;
+            z-index: 2;
+            padding: 0 5px;
+        }
+        .discuss-main .item .box .cont .opera .other .btns ul li {
+            width: auto;
+            height: auto;
+            background: url(images/borgrayb.png) repeat-x bottom;
+            background-size: 1px 1px;
+        }
+        .discuss-main .item .box .cont .opera .other .btns ul li a.red {
+            color: #ff5500;
+        }
+        .discuss-main .item .box .cont .opera .other .btns ul li a {
+            display: block;
+            width: auto;
+            height: auto;
+            font-size: 12px;
+            color: #666;
+            line-height: 12px;
+            padding: 6px 0;
+            text-align: center;
+        }
+        .discuss-main .item .box .note a {
+            color: #999;
+            position: relative;
+            margin-left: 6px;
+            padding-left: 8px;
+        }
+        .discuss-main .item .box .note a i {
+            display: block;
+            width: 2px;
+            height: 2px;
+            background: #999;
+            border-radius: 50%;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            margin-top: -1px;
+        }
+        .discuss-main .item .box .reply ul li {
+            width: auto;
+            height: auto;
+            background: url(images/borgrayb.png) repeat-x bottom;
+            background-size: 1px 1px;
+        }
+        .discuss-main .item .box .reply ul li .replybox {
+            width: auto;
+            height: auto;
+            padding: 10px 0;
+        }
+        .discuss-main .item .box .reply ul li .replybox .replyname {
+            width: auto;
+            height: auto;
+            line-height: 12px;
+            position: relative;
+            font-size: 10px;
+            color: #333333;
+        }
+        .discuss-main .item .box .reply ul li .replybox .replytext {
+            width: auto;
+            height: auto;
+            font-size: 10px;
+            color: #333333;
+            padding-top: 5px;
+        }
+        .discuss-main .item .box .reply ul li .replybox .replyname a {
+            color: #3d6fce;
+        }
+        .discuss-main .item .box .reply ul li .replybox .replyname .time {
+            display: block;
+            width: auto;
+            height: 12px;
+            line-height: 12px;
+            position: absolute;
+            right: 0;
+            top: 50%;
+            margin-top: -6px;
+            color: #999;
+        }
+        .foot{
+            width: 100%;
+            height: 50px;
+            background: url(images/borgrayt.png) repeat-x top #f6f6f6;
+            background-size: 1px 1px;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            z-index: 999;
+            padding: 6px 76px 6px 6px;
+        }
+        .foot span.icon{
+            width: 38px;
+            height: 38px;
+            position: absolute;
+            left: 6px;
+            top: 6px;
+            z-index: 2;
+            background: url(images/icon-edit.png) no-repeat center;
+            background-size: 18px 18px;
+        }
+        .foot input.inp{
+            width: 100%;
+            height: 38px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background: #fff;
+            font-size: 14px;
+            color: #333;
+            line-height: 16px;
+            padding: 10px 10px 10px 38px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="headBack"><a href="javascript:history.go(-1);"></a></div>
+        <div class="headTitle">全部回复</div>
+    </div>
+    <div class="wrapper">
+        <div class="discuss-main">
+            <div class="item">
+                <div class="portrait"><a href="person.html"><img src="images/bbslist-portrait1.jpg"></a></div>
+                <div class="box">
+                    <div class="name"><a href="person.html">笑笑笑小</a></div>
+                    <div class="cont">
+                        <div class="text">同种类的舞蹈世纪六十年代最早的街舞起源于20世纪六十年代。</div>
+                        <div class="opera opother">
+                            <div class="like"><a href="javascript:void(0)" class="oplike"><i></i>20</a></div>
+                            <div class="other">
+                                <div class="icon"><a href="javascript:void(0)"></a></div>
+                                <div class="btns" style="display: none;">
+                                    <i></i>
+                                    <ul>
+                                        <li><a href="#" class="red">举报</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="note">07.22  15:30<a href="javascript:void(0)"><i></i>回复TA</a></div>
+                    <div class="reply">
+                        <ul>
+                            <li>
+                                <div class="replybox">
+                                    <div class="replyname"><a href="person.html">恍恍惚惚:</a><span class="time">07.22  15:30</span></div>
+                                    <div class="replytext">说的不错说的不错说的不错说不错！</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="replybox">
+                                    <div class="replyname"><a href="person.html">你你呀呀呀:</a><span class="time">07.22  15:30</span></div>
+                                    <div class="replytext">真棒真棒真棒真棒真棒真棒。</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="replybox">
+                                    <div class="replyname">回复<a href="person.html">你你呀呀呀:</a><span class="time">07.22  15:30</span></div>
+                                    <div class="replytext">谢谢谢谢！</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="replybox">
+                                    <div class="replyname"><a href="person.html">我是她:</a><span class="time">07.22  15:30</span></div>
+                                    <div class="replytext">哈哈哈哈哈哈哈哈</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="replybox">
+                                    <div class="replyname"><a href="person.html">恍恍惚惚:</a><span class="time">07.22  15:30</span></div>
+                                    <div class="replytext">说的不错说的不错说的不错说不错！</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="replybox">
+                                    <div class="replyname"><a href="person.html">你你呀呀呀:</a><span class="time">07.22  15:30</span></div>
+                                    <div class="replytext">真棒真棒真棒真棒真棒真棒。</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="replybox">
+                                    <div class="replyname">回复<a href="person.html">你你呀呀呀:</a><span class="time">07.22  15:30</span></div>
+                                    <div class="replytext">谢谢谢谢！</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="replybox">
+                                    <div class="replyname"><a href="person.html">我是她:</a><span class="time">07.22  15:30</span></div>
+                                    <div class="replytext">哈哈哈哈哈哈哈哈</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="replybox">
+                                    <div class="replyname"><a href="person.html">恍恍惚惚:</a><span class="time">07.22  15:30</span></div>
+                                    <div class="replytext">说的不错说的不错说的不错说不错！</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="replybox">
+                                    <div class="replyname"><a href="person.html">你你呀呀呀:</a><span class="time">07.22  15:30</span></div>
+                                    <div class="replytext">真棒真棒真棒真棒真棒真棒。</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="replybox">
+                                    <div class="replyname">回复<a href="person.html">你你呀呀呀:</a><span class="time">07.22  15:30</span></div>
+                                    <div class="replytext">谢谢谢谢！</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="replybox">
+                                    <div class="replyname"><a href="person.html">我是她:</a><span class="time">07.22  15:30</span></div>
+                                    <div class="replytext">哈哈哈哈哈哈哈哈</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="foot">
+        <span class="icon"></span>
+        <form>
+            <input type="text" placeholder="抒发下想法唄~" class="inp">
+        </form>
+    </div>
+</body>
+</html>
