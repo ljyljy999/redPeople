@@ -14,7 +14,7 @@ header{
 	background-color: #fff;
 }
 .mui-segmented-control.mui-segmented-control-inverted{
-	width: 75%;
+	width: 100%;
 }
 .mui-segmented-control.mui-scroll-wrapper .mui-control-item{
 	font-size:14px;
@@ -39,6 +39,9 @@ header{
 	right: 0;
 	top: 50%;
 	margin-top: -5px;
+}
+.mui-segmented-control.mui-segmented-control-inverted {
+    width: 100%;
 }
 .search{
 	height: 37px;
