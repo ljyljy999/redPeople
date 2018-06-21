@@ -1,0 +1,75 @@
+.recommend-list{
+	padding-top: 20px;
+	width: auto;
+    height: auto;
+    overflow: hidden;
+}
+.recommend-list ul li{
+	width: 33.333%;
+    height: auto;
+    float: left;
+    padding-top: 15px;
+}
+.recommend-box .icon{
+	width: 30px;
+    height: 30px;
+    margin: 0 auto;
+}
+.recommend-box .icon img{
+	width: 100%;
+	height: 100%;
+}
+.recommend-box .text{
+	text-align: center;
+    font-size: 13px;
+    color: #999999;
+}
+.recommend_note{
+	width: auto;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.recommend_note span{
+	display: inline-block;
+    width: auto;
+    height: auto;
+    position: relative;
+    font-size: 13px;
+    color: #999999;
+    padding-left: 40px;
+}
+.recommend_note span i{
+	display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -15px;
+    font-size: 0;
+}
+.recommend_note span i img{
+	width: 30px;
+    height: 30px;
+}
+.recommend-code-img{
+	width: 110px;
+    height: auto;
+    font-size: 0;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.recommend-code-img img{
+	width: 110px;
+}
+.recommend-code-txt{
+	text-align: center;
+    font-size: 13px;
+    color: #999;
+    line-height: 1.6em;
+    padding-top: 10px;
+}
+
