@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <link rel="stylesheet" href="css/mui.min.css" />
+    <link rel="stylesheet" href="css/mui.css" />
+    <link rel="stylesheet" href="css/H-bas-common.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/H-bbscon.css">
+    <link rel="stylesheet" href="public/indexHAndF.css" />
+    <!--//mui.min.css和app.css是Hbuilder提供的两个css文件，每个html文件中都需要包含进来-->
+    <style>
+        html,
+        body {
+            background-color: #efeff4;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="mui-scroll-wrapper mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+        <div class="mui-scroll">
+            <a class="mui-control-item mui-active items">
+                红人黄页
+            </a>
+            <a class="mui-control-item items">
+                案例分析
+            </a>
+            <a class="mui-control-item items">
+                红人直通车
+            </a>
+            <a class="mui-control-item items">
+                学员投稿
+            </a>
+            <a class="mui-control-item items">
+                书籍推荐
+            </a>
+            <a class="mui-control-item items">
+                众筹
+            </a>
+        </div>
+    </div>
+    <div class="search">
+        <div class="mui-icon mui-icon-search"></div>
+        <div class="mui-icon mui-icon-bars"></div>
+    </div>
+</header>
+<!--<script src='public/indexSwiper.js'></script>-->
+<div id="slider" class="mui-slider" >
+    <div class="mui-slider-group mui-slider-loop">
+        <!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+        <div class="mui-slider-item mui-slider-item-duplicate">
+            <a href="#">
+                <img src="images/banner.jpg">
+            </a>
+        </div>
+        <!-- 第一张 -->
+        <div class="mui-slider-item">
+            <a href="#">
+                <img src="images/banner.jpg">
+            </a>
+        </div>
+        <!-- 第二张 -->
+        <div class="mui-slider-item">
+            <a href="#">
+                <img src="images/banner.jpg">
+            </a>
+        </div>
+        <!-- 第三张 -->
+        <div class="mui-slider-item">
+            <a href="#">
+                <img src="images/banner.jpg">
+            </a>
+        </div>
+        <!-- 第四张 -->
+        <div class="mui-slider-item">
+            <a href="#">
+                <img src="images/banner.jpg">
+            </a>
+        </div>
+        <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+        <div class="mui-slider-item mui-slider-item-duplicate">
+            <a href="#">
+                <img src="images/banner.jpg">
+            </a>
+        </div>
+    </div>
+</div>
+<div class="newscon throughtrain">
+        <div class="newscon-title">红人学堂出海行业白皮书（上）| 走，去出海，一起“Copy to World”</div>
+        <div class="newscon-intro">中国移动互联网出海迎来了2.0，甚至3.0时代。人类绝对不能被允许发展超级人工智能</div>
+        <div class="newscon-main">
+            <div class="txt">如果你无法简洁的表达你的想法，
+那只说明你还不够了解它。
+阿尔伯特·爱因斯坦如果你无法简洁的表达你的想法，
+那只说明你还不够了解它。</div>
+            <div class="video"><a href="javascript:void(0)"><span class="icon"></span><img src="images/finewcon-main1.jpg"></a></div>
+            <div class="txt">如果你无法简洁的表达你的想法，那只说明你还不够了解它。阿尔伯特·爱因斯坦如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦</div>
+            <div class="img img1"><img src="images/innews-hot.jpg"></div>
+            <div class="txt">如果你无法简洁的表达你的想法，那只说明你还不够了解它。阿尔伯特·爱因斯坦如果你无法简洁的表达你的想法，那只说明你还不够了解它
+如果你无法简洁的表达你的想法，那只说明你还不达你的想法，那只说明你还不够了解它 那只说明你还不够了解它 那只说明你还不够了解它 </div>
+            <div class="img"><img src="images/concode.jpg"></div>
+            <div class="img"><img src="images/finewcon-main2.jpg"></div>
+        </div>
+        <div class="fourOpera">
+            <ul>
+                <li><a href="javascript:void(0)"><div class="item"><span class="ico1"></span>6666</div></a></li>
+                <li><a href="javascript:void(0)" class="opcollection"><div class="item"><span class="ico2"></span>300</div></a></li>
+                <li><a href="javascript:void(0)" class="oplike"><div class="item"><span class="ico3"></span>5000</div></a></li>
+                <li><a href="javascript:void(0)" class="opshare"><div class="item"><span class="ico4"></span>分享</div></a></li>
+            </ul>
+        </div>
+    </div>
+    
+<script src='public/indexFoot.js'></script>
+
+<script src='js/jquery-2.1.1.min.js'></script>
+<script src="js/mui.min.js"></script>
+<scrip src ='js/common.js'></scrip>
+<script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+<script>
+    //获得slider插件对象
+    var gallery = mui('.mui-slider');
+    gallery.slider({
+        interval:5000//自动轮播周期，若为0则不自动播放，默认为0；
+    });
+</script>
+</body>
+</html>
