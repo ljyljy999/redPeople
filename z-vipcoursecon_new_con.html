@@ -8,6 +8,7 @@
 		<link rel="stylesheet" href="css/z-reset.css" />
 		<link href="css/mui.min.css" rel="stylesheet" />
 		<link rel="stylesheet" href="css/z-vipcoursecon_new_con.css" />
+		<link rel="stylesheet" href="public/indexHAndF.css">
 	</head>
 
 	<body>
@@ -17,9 +18,9 @@
 		</script>
 		<!--头部开始-->
 		<div class="vip-story">
-			<div class="vip-class-title">
-			</div>
-		<!--头部结束-->
+			<script src='public/z-vipHead.js'></script>
+
+			<!--头部结束-->
 		<!--图片-->
 		<div class="vip-class-photo">
 			<img src="images/vipcoursecon-head.jpg" alt="" />
@@ -139,6 +140,20 @@
 		
 		
 		</div>
+		<script src='public/indexFoot.js'></script>
+		<script src='js/jquery-2.1.1.min.js'></script>
+		<script>
+			//轮播大小变化
+			var bannerH = $('.mui-scroll img').css('height');
+			$('.inrecom').css('margin-top',bannerH);
+			//菜单close
+			$('#menu-btn').on('click',function(){
+				$('.menu').css('display','block');
+			})
+			$('#close').on('click',function(){
+				$('.menu').css('display','none');
+			})
+		</script>
 	</body>
 
 </html>
