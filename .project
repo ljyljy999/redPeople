@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
+	<name>redPeople1</name>
+=======
 	<name>redPeople</name>
+>>>>>>> origin/master
 	<comment></comment>
 	<projects>
 	</projects>
@@ -16,7 +20,11 @@
 	</natures>
 	<filteredResources>
 		<filter>
+<<<<<<< HEAD
+			<id>1529396228428</id>
+=======
 			<id>1529407100540</id>
+>>>>>>> origin/master
 			<name></name>
 			<type>26</type>
 			<matcher>
