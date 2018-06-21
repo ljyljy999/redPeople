@@ -1,0 +1,65 @@
+.mui-segmented-control.mui-scroll-wrapper .mui-control-item{
+	width: 33.3333% !important;
+}
+.prophoto-tit {
+	height: 44px;
+    padding: 15px 0;
+}
+.prophoto-tit .name{
+	height: 14px;
+    border-left: 2px solid #f54744;
+    float: left;
+    padding-left: 8px;
+}
+.prophoto-tit .name span{
+	height: 14px;
+    float: left;
+    line-height: 14px;
+    font-size: 14px;
+    color: #333;
+    padding-right: 20px;
+    background: url(../images/inmore.png) no-repeat right center;
+    background-size: 5px 10px;
+}
+.mui-slider-list ul{
+	margin: 0;
+}
+.mui-slider-list ul li{
+	margin-bottom: 10px;
+}
+.mui-slider-list ul li .item{
+	padding: 0 15px 15px 15px;
+	position: relative;
+}
+.mui-slider-list ul li .item .img{
+	width: 120px;
+    height: 120px;
+    position: absolute;
+    left: 15px;
+    top: 0;
+}
+.mui-slider-list ul li .item .img img{
+	width: 100%;
+    height: 100%;
+}
+.mui-slider-list ul li .item .con{
+	min-height: 120px;
+    margin-left: 135px;
+    position: relative;
+    padding-bottom: 36px;
+}
+.mui-slider-list ul li .item .con .tit a{
+	font-size: 14px;
+    color: #333;
+}
+.mui-slider-list ul li .item .con .note{
+	font-size: 12px;
+    color: #999;
+    padding-top: 8px;
+}
+.mui-slider-list ul li .item .con  .txt{
+	font-size: 12px;
+    color: #666;
+    padding-top: 8px;
+}
+
