@@ -12,7 +12,7 @@
 }
 .mui-segmented-control.mui-segmented-control-inverted .mui-control-item{
 	padding: 0;
-	width:33.3333% !important;
+	/*width:33.3333% !important;*/
 }
 .mui-segmented-control.mui-scroll-wrapper .mui-scroll{
 	width:100%;

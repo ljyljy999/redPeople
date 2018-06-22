@@ -116,14 +116,14 @@ content .txt{
     color: #999999;
     padding-top: 5px;
 }
-.bean_vermicelli .box .txt{
+.bean_vermicelli .boxs .txt{
 	font-size:10px;
 }
-.bean_vermicelli .box .con{
+.bean_vermicelli .boxs .con{
 	padding-top: 8px;
 	overflow: hidden;
 }
-.bean_vermicelli .box .con .name{
+.bean_vermicelli .boxs .con .name{
 	height: 30px;
     line-height: 30px;
     font-size: 14px;
@@ -131,10 +131,10 @@ content .txt{
     float: left;
     padding-right: 20px;
 }
-.bean_vermicelli .box .con .name a{
+.bean_vermicelli .boxs .con .name a{
 	color:#333;
 }
-.bean_vermicelli .box .con .name a span {
+.bean_vermicelli .boxs .con .name a span {
     display: block;
     width: auto;
     height: auto;
@@ -143,10 +143,10 @@ content .txt{
     padding-right: 20px;
     background-size: 14px 14px;
 }
-.bean_vermicelli .box .con .name a span.vip{
+.bean_vermicelli .boxs .con .name a span.vip{
 	background-image: url(../images/vip-blue.png);
 }
-.bean_vermicelli .box .con .fans{
+.bean_vermicelli .boxs .con .fans{
 	width: auto;
     height: 30px;
     line-height: 30px;
@@ -157,7 +157,9 @@ content .txt{
 
 
 
-
+img {
+    width: 100%;
+}
 
 
 .quiz_attention{
