@@ -1,12 +1,13 @@
-.vip-class-title{
-	height:44px;
-	background-color: red;
+
+.vip-class-photo{
+	margin-top: 44px;
 }
 .vip-class-photo img{
 	width:100%;
 	display:block;
 
 }
+
 /*小小七开始*/
 .vip-class-small{
 	width:auto;

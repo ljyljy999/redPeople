@@ -8,6 +8,8 @@
 		<link href="css/mui.min.css" rel="stylesheet" />
 		<link rel="stylesheet" href="css/z-vipcourse.css" />
 		<link rel="stylesheet" href="css/z-reset.css" />
+		<link rel="stylesheet" href="public/indexHAndF.css">
+
 	</head>
 
 	<body>
@@ -18,73 +20,8 @@
 	</body>
 	<div class="vipwarp">
 		<!--头部-->
-		<div class="warp">
-		<div class="mui-scroll-wrapper mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
-	    <div class="mui-scroll">
-	        <a class="mui-control-item">
-	            资讯
-	        
-	        </a>
-	        <i class='line'></i>
+		<script src='public/z-vipHead.js'></script>
 
-	        <a class="mui-control-item">
-	          学堂出品
-	        </a>
-	        <a class="mui-control-item">
-	           红人黄页
-
-	        </a>
-	        <i class='line'></i>
-	        
-	        <a class="mui-control-item">
-	           案例分析
-
-	        </a>
-	        <i class='line'></i>
-	        
-	        <a class="mui-control-item">
-	           红人直通车
-
-	        </a>
-	        <i class='line'></i>
-	        
-	        <a class="mui-control-item">
-	          红人通告
-
-	        </a>
-	        <i class='line'></i>
-	        
-	        <a class="mui-control-item">
-	          书籍推荐
-
-	        </a>
-	        <i class='line'></i>
-	        
-	        <a class="mui-control-item">
-	          学堂成果
-
-	        </a>
-	        <i class='line'></i>
-	        
-	        <a class="mui-control-item">
-	         众筹
-
-	        </a>
-	        <i class='line'></i>
-	        
-	        <a class="mui-control-item">
-	          人气版
-
-	        </a>
-	        
-	    </div>
-	</div>
-		<div class="nav-search">
-			<div class="mui-icon mui-icon-search"></div>
-			<div class="mui-icon mui-icon-bars"></div>
-			
-		</div>
-	</div>
 		<!--轮播-->
 		<div id="slider" class="mui-slider" >
 	  <div class="mui-slider-group mui-slider-loop">
@@ -273,6 +210,20 @@
 			</ul>
 		</div>
 	</div>
+	<script src='public/indexFoot.js'></script>
+	<script src='js/jquery-2.1.1.min.js'></script>
+	<script>
+		//轮播大小变化
+		var bannerH = $('.mui-scroll img').css('height');
+		$('.inrecom').css('margin-top',bannerH);
+		//菜单close
+		$('#menu-btn').on('click',function(){
+			$('.menu').css('display','block');
+		})
+		$('#close').on('click',function(){
+			$('.menu').css('display','none');
+		})
+	</script>
 	
 	<script>
 		//获得slider插件对象

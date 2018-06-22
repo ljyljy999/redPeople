@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/mui.css" />
+    <script type="text/javascript" charset="utf-8">
+        mui.init();
+    </script>
+    <link rel="stylesheet" href="css/T-header.css" />
+    <link rel="stylesheet" href="css/T-producedmusic.css" />
+    <link rel="stylesheet" href="css/T-producedreserphoto.css" />
+    <link rel="stylesheet" href="public/indexHAndF.css" />
+</head>
+<body>
+	<script src='public/indexHead.js'></script>
+	<div>
+		<!--轮播-->
+		<banner>
+			<div id="slider" class="mui-slider mt40" >
+			  <div class="mui-slider-group mui-slider-loop">
+			    <!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+			    <div class="mui-slider-item mui-slider-item-duplicate">
+			      <a href="#">
+			        <img src="images/banner.jpg">
+			      </a>
+			    </div>
+			    <!-- 第一张 -->
+			    <div class="mui-slider-item">
+			      <a href="#">
+			        <img src="images/banner.jpg">
+			      </a>
+			    </div>
+			    <!-- 第二张 -->
+			    <div class="mui-slider-item">
+			      <a href="#">
+			        <img src="images/banner.jpg">
+			      </a>
+			    </div>
+			    <!-- 第三张 -->
+			    <div class="mui-slider-item">
+			      <a href="#">
+			        <img src="images/banner.jpg">
+			      </a>
+			    </div>
+			    <!-- 第四张 -->
+			    <div class="mui-slider-item">
+			      <a href="#">
+			        <img src="images/banner.jpg">
+			      </a>
+			    </div>
+			    <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+			    <div class="mui-slider-item mui-slider-item-duplicate">
+			      <a href="#">
+			        <img src="images/banner.jpg">
+			      </a>
+			    </div>
+			  </div>
+			</div>
+		</banner>
+		<div id="slider" class="mua-slider">
+	    	<div class="mui-scroll-wrapper mui-slider-indicator mui-segmented-control mui-segmented-control-inverted" id="segmented">
+	       		<div class="mui-scroll bf">
+	                <a class="mui-control-item mui-active" href="#item1mobile">
+	                    最新
+	                </a>
+	                <a class="mui-control-item" href="#item2mobile">
+	                    最热
+	                </a>
+	                <a class="mui-control-item" href="#item3mobile">
+	                    <div class="icon-filter">筛选</div>
+	                </a>
+			    </div>
+			</div>
+	        <div class="mui-slider-list pb50">
+	            	<div id="item1mobile" class="mui-slider-item mui-control-content mui-active">
+	            		<div class="prophoto-tit bf">
+						<div class="name"><span>我要预约</span></div>
+					</div>
+	            		<ul>
+	            			<li>
+	            				<div class="bf">
+	            					<div class="item">
+									<a  class="img"href="T-producedreserphotocon.html">
+										<img src="images/finecoursecon-newlist1.jpg">
+									</a>
+									<div class="con">
+										<div class="tit">
+											<a href="T-producedreserphotocon.html">300天品牌思维修炼</a>
+										</div>
+										<div class="note">打造你的专属个人品牌</div>
+										<div class="txt">最新：小众和大众市场如何区分和互相…</div>
+									</div>
+								</div>
+	            				</div>
+	            			</li>
+	            			<li>
+	            				<div class="bf">
+	            					<div class="item">
+									<a  class="img"href="T-producedreserphotocon.html">
+										<img src="images/finecoursecon-newlist1.jpg">
+									</a>
+									<div class="con">
+										<div class="tit">
+											<a href="T-producedreserphotocon.html">300天品牌思维修炼</a>
+										</div>
+										<div class="note">打造你的专属个人品牌</div>
+										<div class="txt">最新：小众和大众市场如何区分和互相…</div>
+									</div>
+								</div>
+	            				</div>
+	            			</li>
+	            			<li>
+	            				<div class="bf">
+	            					<div class="item">
+									<a  class="img"href="T-producedreserphotocon.html">
+										<img src="images/finecoursecon-newlist1.jpg">
+									</a>
+									<div class="con">
+										<div class="tit">
+											<a href="T-producedreserphotocon.html">300天品牌思维修炼</a>
+										</div>
+										<div class="note">打造你的专属个人品牌</div>
+										<div class="txt">最新：小众和大众市场如何区分和互相…</div>
+									</div>
+								</div>
+	            				</div>
+	            			</li>
+	            		</ul>
+	            	</div>
+	            <div id="item2mobile" class="mui-slider-item mui-control-content bf">
+	            		内容二
+	            </div>
+	           	<div id="item3mobile" class="mui-slider-item mui-control-content bf">
+	              	内容4
+	            </div>
+	      	</div>
+		</div>
+	</div>
+	<script src='public/indexFoot.js'></script>
+	<script>
+		var gallery = mui('.mui-slider');
+		gallery.slider({
+  			interval:2000//自动轮播周期，若为0则不自动播放，默认为0；
+		});
+	</script>
+</body>
+</html>
+
