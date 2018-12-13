@@ -1,2 +1,2 @@
 # redPeople
-红人学堂
+红人学堂（MUI）
